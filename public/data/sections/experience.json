@@ -1,0 +1,78 @@
+{
+    "locales": {
+        "en": {
+            "title": "Experience",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**Work** Experience"
+        },
+
+        "es": {
+            "title": "Experiencia",
+            "title_long_prefix": "Resumen de mi",
+            "title_long": "Experiencia **Laboral**"
+        },
+
+        "fr": {
+            "title": "Expérience",
+            "title_long_prefix": "Résumé de mon",
+            "title_long": "Parcours **Professionel**"
+        },
+
+        "ko": {
+            "title": "경험",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**직업적** 경험"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-7.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "07/01/2024",
+                        "end": "06/29/2025"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full-Stack Developer (Intern)",
+                            "info": "Syscode",
+                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.Full-stack development and management, encompassing UX design, Laravel development and testing.",
+                            "tags": ["PHP", "MySQL", "Laravel"]
+                        },
+                        "es": {
+                            "title": "Desarrollador **Backend**",
+                            "info": "Sapphire Studio",
+                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Développeur **Backend**",
+                            "info": "Sapphire Studio",
+                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**백엔드** 개발자",
+                            "info": "사파이어 스튜디오",
+                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
+                            "tags": null
+                        }
+                    }
+                }
+
+
+            ]
+        }
+    ]
+}
