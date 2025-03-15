@@ -1,51 +1,110 @@
-import React from 'react';
+import * as React from 'react';
 import { useLanguage } from '/src/providers/LanguageProvider.jsx';
+import Box from '@mui/material/Box';
+import Collapse from '@mui/material/Collapse';
+import IconButton from '@mui/material/IconButton';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-function GradeTable({ data }) {
-    const { selectedLanguageId } = useLanguage(); // Using selectedLanguageId as in the working component
+// Group items by semester
+function groupBySemester(items, language) {
+    const grouped = {};
+    items.forEach((item) => {
+        const semester = item.semester[language];
+        if (!grouped[semester]) {
+            grouped[semester] = [];
+        }
+        grouped[semester].push(item);
+    });
+    return grouped;
+}
 
-    // Safety check to ensure that locales and items data are properly loaded and accessible
-    if (!data || !data.locales || !data.locales[selectedLanguageId] || !data.items) {
-        return <p>Loading or language data is missing...</p>; // Or any other fallback UI
-    }
-
-    // Ensure that all data necessary for rendering is available
-    const headers = data.locales[selectedLanguageId];
-    if (!headers || !headers.course || !headers.grade || !headers.semester) {
-        return <p>Header information is incomplete or missing for the current language.</p>;
-    }
+function Row({ semester, courses, headers, language }) {
+    const [open, setOpen] = React.useState(false);
 
     return (
-        <div className="grade-table-container">
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th>{headers.course}</th>
-                        <th>{headers.grade}</th>
-                        <th>{headers.semester}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.items.map((item, index) => {
-                        const course = item.course[selectedLanguageId];
-                        const grade = item.grade[selectedLanguageId];
-                        const semester = item.semester[selectedLanguageId];
-                        // Additional safety check for each item
-                        if (!course || !grade || !semester) {
-                            return <tr key={index}><td colSpan="3">Incomplete data for some entries.</td></tr>;
-                        }
-                        return (
-                            <tr key={index}>
-                                <td>{course}</td>
-                                <td>{grade}</td>
-                                <td>{semester}</td>
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
-        </div>
+        <React.Fragment>
+            {/* Main Row: Semester */}
+            <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
+                <TableCell>
+                    <IconButton
+                        aria-label="expand row"
+                        size="small"
+                        onClick={() => setOpen(!open)}
+                    >
+                        {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+                    </IconButton>
+                </TableCell>
+                <TableCell component="th" scope="row" colSpan={2}>
+                    <Typography variant="h6">{semester}</Typography>
+                </TableCell>
+            </TableRow>
+            
+            {/* Expanded Row: Course & Grades Table */}
+            <TableRow>
+                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
+                    <Collapse in={open} timeout="auto" unmountOnExit>
+                        <Box sx={{ margin: 1 }}>
+                            <Typography variant="h6" gutterBottom component="div">
+                                {headers.course} & {headers.grade}
+                            </Typography>
+                            <Table size="small" aria-label="grades">
+                                <TableHead>
+                                    <TableRow>
+                                        <TableCell>{headers.course}</TableCell>
+                                        <TableCell align="center">{headers.grade}</TableCell>
+                                    </TableRow>
+                                </TableHead>
+                                <TableBody>
+                                    {courses.map((course, index) => (
+                                        <TableRow key={index}>
+                                            <TableCell>{course.course[language]}</TableCell>
+                                            <TableCell align="center">{course.grade[language]}</TableCell>
+                                        </TableRow>
+                                    ))}
+                                </TableBody>
+                            </Table>
+                        </Box>
+                    </Collapse>
+                </TableCell>
+            </TableRow>
+        </React.Fragment>
     );
 }
 
-export default GradeTable;
+export default function GradeTable({ data }) {
+    const { selectedLanguageId } = useLanguage();
+
+    if (!data || !data.locales || !data.locales[selectedLanguageId] || !data.items) {
+        return <p>Loading or language data is missing...</p>;
+    }
+
+    const headers = data.locales[selectedLanguageId];
+    const groupedData = groupBySemester(data.items, selectedLanguageId);
+
+    return (
+        <TableContainer component={Paper}>
+            <Table aria-label="collapsible table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell />
+                        <TableCell>{headers.semester}</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {Object.entries(groupedData).map(([semester, courses], index) => (
+                        <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
+                    ))}
+                </TableBody>
+            </Table>
+        </TableContainer>
+    );
+}
