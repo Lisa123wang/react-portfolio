@@ -14,14 +14,15 @@ import Typography from '@mui/material/Typography';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-// Updated to handle semesters containing multiple courses
-function groupBySemester(semesters, language) {
+// Group items by semester
+function groupBySemester(items, language) {
     const grouped = {};
-    semesters.forEach((semester) => {
-        const semesterName = semester.semester[language];
-        if (!grouped[semesterName]) {
-            grouped[semesterName] = semester.courses;
+    items.forEach((item) => {
+        const semester = item.semester[language];
+        if (!grouped[semester]) {
+            grouped[semester] = [];
         }
+        grouped[semester].push(item);
     });
     return grouped;
 }
@@ -82,12 +83,12 @@ function Row({ semester, courses, headers, language }) {
 export default function GradeTable({ data }) {
     const { selectedLanguageId } = useLanguage();
 
-    if (!data || !data.locales || !data.locales[selectedLanguageId] || !data.semesters) {
+    if (!data || !data.locales || !data.locales[selectedLanguageId] || !data.items) {
         return <p>Loading or language data is missing...</p>;
     }
 
     const headers = data.locales[selectedLanguageId];
-    const groupedData = groupBySemester(data.semesters, selectedLanguageId);
+    const groupedData = groupBySemester(data.items, selectedLanguageId);
 
     return (
         <TableContainer component={Paper}>

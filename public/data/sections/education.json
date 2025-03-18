@@ -82,96 +82,70 @@
                 "fr": {"course": "Cours", "grade": "Note", "semester": "Semestre"},
                 "ko": {"course": "과정", "grade": "성적", "semester": "학기"}
             },
-            "semesters": [
+            "items": [
                 {
+                    "course": {
+                        "en": "Algorithms",
+                        "es": "Algoritmos",
+                        "fr": "Algorithmes",
+                        "ko": "알고리즘"
+                    },
+                    "grade": {
+                        "en": "A",
+                        "es": "A",
+                        "fr": "A",
+                        "ko": "A"
+                    },
                     "semester": {
                         "en": "Fall 2021",
                         "es": "Otoño 2021",
                         "fr": "Automne 2021",
                         "ko": "2021년 가을"
-                    },
-                    "courses": [
-                        {
-                            "course": {
-                                "en": "Algorithms",
-                                "es": "Algoritmos",
-                                "fr": "Algorithmes",
-                                "ko": "알고리즘"
-                            },
-                            "grade": {
-                                "en": "A",
-                                "es": "A",
-                                "fr": "A",
-                                "ko": "A"
-                            }
-                        },
-                        {
-                            "course": {
-                                "en": "Database Systems",
-                                "es": "Sistemas de Bases de Datos",
-                                "fr": "Systèmes de Bases de Données",
-                                "ko": "데이터베이스 시스템"
-                            },
-                            "grade": {
-                                "en": "A",
-                                "es": "A",
-                                "fr": "A",
-                                "ko": "A"
-                            }
-                        }
-                    ]
+                    }
                 },
                 {
+                    "course": {
+                        "en": "Data Structures",
+                        "es": "Estructuras de Datos",
+                        "fr": "Structures de Données",
+                        "ko": "데이터 구조"
+                    },
+                    "grade": {
+                        "en": "A-",
+                        "es": "A-",
+                        "fr": "A-",
+                        "ko": "A-"
+                    },
                     "semester": {
                         "en": "Spring 2022",
                         "es": "Primavera 2022",
                         "fr": "Printemps 2022",
                         "ko": "2022년 봄"
-                    },
-                    "courses": [
-                        {
-                            "course": {
-                                "en": "Data Structures",
-                                "es": "Estructuras de Datos",
-                                "fr": "Structures de Données",
-                                "ko": "데이터 구조"
-                            },
-                            "grade": {
-                                "en": "A-",
-                                "es": "A-",
-                                "fr": "A-",
-                                "ko": "A-"
-                            }
-                        }
-                    ]
+                    }
                 },
                 {
+                    "course": {
+                        "en": "Software Engineering",
+                        "es": "Ingeniería de Software",
+                        "fr": "Génie Logiciel",
+                        "ko": "소프트웨어 공학"
+                    },
+                    "grade": {
+                        "en": "B+",
+                        "es": "B+",
+                        "fr": "B+",
+                        "ko": "B+"
+                    },
                     "semester": {
                         "en": "Fall 2022",
                         "es": "Otoño 2022",
                         "fr": "Automne 2022",
                         "ko": "2022년 가을"
-                    },
-                    "courses": [
-                        {
-                            "course": {
-                                "en": "Software Engineering",
-                                "es": "Ingeniería de Software",
-                                "fr": "Génie Logiciel",
-                                "ko": "소프트웨어 공학"
-                            },
-                            "grade": {
-                                "en": "B+",
-                                "es": "B+",
-                                "fr": "B+",
-                                "ko": "B+"
-                            }
-                        }
-                    ]
+                    }
                 }
             ]
         }
-               
+        
         
         
     ]
