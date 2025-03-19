@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Article from "/src/components/wrappers/Article.jsx";
 import Timeline from "/src/components/generic/Timeline.jsx";
 import { useParser } from "/src/helpers/parser.js";
@@ -17,48 +17,54 @@ import Button from '@mui/material/Button';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
-// Helper function to generate table data (you can adjust this logic based on your actual data structure)
-function generateTableData(parsedData) {
-    return parsedData.items.map(item => ({
-        date: item.date,
-        title: item.title,
-        description: item.description,
-        grade: item.grade, // Add grade or any other specific fields you need
-    }));
+// ✅ Function to group courses by semester
+function groupBySemester(semesters, language) {
+    const grouped = {};
+    semesters.forEach((semester) => {
+        const semesterName = semester.semester[language];
+        if (!grouped[semesterName]) {
+            grouped[semesterName] = [];
+        }
+        grouped[semesterName].push(...semester.courses);
+    });
+    return grouped;
 }
 
-// Function to handle CSV download
+// ✅ CSV Download Function
 function downloadCSV(data, headers) {
-    let csvContent = `${headers.date},${headers.title},${headers.description},${headers.grade}\n`;
-    data.forEach(row => {
-        csvContent += `${row.date},${row.title},${row.description},${row.grade}\n`;
+    let csvContent = `${headers.semester},${headers.course},${headers.grade}\n`;
+    Object.entries(data).forEach(([semester, courses]) => {
+        courses.forEach(course => {
+            csvContent += `${semester},${course.course.en},${course.grade.en}\n`;
+        });
     });
+
     const blob = new Blob([csvContent], { type: 'text/csv' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = 'timeline_data.csv';
+    link.download = 'grades.csv';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 }
 
-// Function to handle PDF download
+// ✅ PDF Download Function (Update file URL)
 function downloadPDF() {
-    const pdfUrl = 'sample.pdf'; // Update this URL with your PDF
+    const pdfUrl = '410402446.pdf'; // Update this to your correct PDF path
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'timeline_data.pdf';
+    link.download = 'official_grades.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 }
 
-// Row component for collapsible rows
-function Row({ item, headers }) {
-    const [open, setOpen] = React.useState(false);
+// ✅ Collapsible Row Component
+function Row({ semester, courses, headers, language }) {
+    const [open, setOpen] = useState(false);
 
     return (
-        <React.Fragment>
+        <>
             <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
                 <TableCell>
                     <IconButton
@@ -69,69 +75,75 @@ function Row({ item, headers }) {
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell component="th" scope="row" colSpan={3}>
-                    <Typography variant="h6">{item.title}</Typography>
+                <TableCell component="th" scope="row" colSpan={2}>
+                    <Typography variant="h6">{semester}</Typography>
                 </TableCell>
             </TableRow>
             <TableRow>
-                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={4}>
+                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
                             <Typography variant="h6" gutterBottom component="div">
-                                {headers.date} & {headers.description} & {headers.grade}
+                                {headers.course} & {headers.grade}
                             </Typography>
-                            <Table size="small" aria-label="item details">
+                            <Table size="small" aria-label="grades">
                                 <TableHead>
                                     <TableRow>
-                                        <TableCell>{headers.date}</TableCell>
-                                        <TableCell align="center">{headers.description}</TableCell>
+                                        <TableCell>{headers.course}</TableCell>
                                         <TableCell align="center">{headers.grade}</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
-                                    <TableRow>
-                                        <TableCell>{item.date}</TableCell>
-                                        <TableCell align="center">{item.description}</TableCell>
-                                        <TableCell align="center">{item.grade}</TableCell> {/* Assuming grade is available */}
-                                    </TableRow>
+                                    {courses.map((course, index) => (
+                                        <TableRow key={index}>
+                                            <TableCell>{course.course[language]}</TableCell>
+                                            <TableCell align="center">{course.grade[language]}</TableCell>
+                                        </TableRow>
+                                    ))}
                                 </TableBody>
                             </Table>
                         </Box>
                     </Collapse>
                 </TableCell>
             </TableRow>
-        </React.Fragment>
+        </>
     );
 }
 
+// ✅ Main Component (Keeps Timeline & Grade Table)
 function ArticleTimeline({ data }) {
+    console.log("Debugging ArticleTimeline - Received Data:", data);
     const parser = useParser();
 
+    // ✅ Extract items for Timeline
     const parsedData = parser.parseArticleData(data);
     const items = parsedData.items;
     parser.sortArticleItemsByDateDesc(items);
-
     const parsedItems = parser.formatForTimeline(items);
-    const tableData = generateTableData(parsedData);
 
-    const headers = {
-        date: "Date",
-        title: "Title",
-        description: "Description",
-        grade: "Grade", // New column for grade (or any other category)
-    };
+    // ✅ Extract semesters from `items[0].semesters`
+    const semesters = data.items?.[0]?.semesters || [];
+
+    console.log("Extracted Semesters Data:", semesters);
+
+    if (semesters.length === 0) {
+        return <Typography variant="h6">No data available</Typography>;
+    }
+
+    // ✅ Set default language (Modify if you have language selection)
+    const selectedLanguageId = "en";
+    const groupedData = groupBySemester(semesters, selectedLanguageId);
+    const headers = data.locales[selectedLanguageId];
 
     return (
         <Article className={`article-timeline`} title={parsedData.title}>
+            {/* ✅ Timeline Data Display */}
             <Timeline items={parsedItems} />
 
-            {/* Table Section */}
-            <Box sx={{ mt: 4 }}>
-                <Typography variant="h6" gutterBottom>
-                    Timeline Data Table
-                </Typography>
+            {/* ✅ Grade Table with Collapsible Rows */}
+            <Box>
                 <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
-                    <Button variant="contained" color="primary" onClick={() => downloadCSV(tableData, headers)} sx={{ mr: 1 }}>
+                    <Button variant="contained" color="primary" onClick={() => downloadCSV(groupedData, headers)} sx={{ mr: 1 }}>
                         Download CSV
                     </Button>
                     <Button variant="contained" color="secondary" onClick={downloadPDF}>
@@ -143,12 +155,12 @@ function ArticleTimeline({ data }) {
                         <TableHead>
                             <TableRow>
                                 <TableCell />
-                                <TableCell>{headers.title}</TableCell>
+                                <TableCell>{headers.semester}</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
-                            {tableData.map((item, index) => (
-                                <Row key={index} item={item} headers={headers} />
+                            {Object.entries(groupedData).map(([semester, courses], index) => (
+                                <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
                             ))}
                         </TableBody>
                     </Table>

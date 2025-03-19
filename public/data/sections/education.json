@@ -30,7 +30,12 @@
             "id": "academic",
             "component": "ArticleTimeline",
             "config": {},
-            "locales": {},
+            "locales": {
+                "en": {"course": "Course", "grade": "Grade", "semester": "Semester"},
+                "es": {"course": "Curso", "grade": "Calificación", "semester": "Semestre"},
+                "fr": {"course": "Cours", "grade": "Note", "semester": "Semestre"},
+                "ko": {"course": "과정", "grade": "성적", "semester": "학기"}
+            },
 
             "items": [
                 {
@@ -68,21 +73,8 @@
                             "text": "알고리즘, 데이터 구조, 소프트웨어 공학 및 웹 개발에 중점을 둔 컴퓨터 과학 학사 학위를 취득했습니다. 다양한 프로그래밍 프로젝트와 부트캠프를 통해 실무 경험을 쌓았습니다.",
                             "tags": []
                         }
-                    }
-                }
-            ]
-        },
-        {
-            "id": "gradeTable",
-            "component": "GradeTable",
-            "config": {},
-            "locales": {
-                "en": {"course": "Course", "grade": "Grade", "semester": "Semester"},
-                "es": {"course": "Curso", "grade": "Calificación", "semester": "Semestre"},
-                "fr": {"course": "Cours", "grade": "Note", "semester": "Semestre"},
-                "ko": {"course": "과정", "grade": "성적", "semester": "학기"}
-            },
-            "semesters": [
+                    },
+                    "semesters": [
                 {
                     "semester": {
                         "en": "Fall 2021",
@@ -170,8 +162,9 @@
                     ]
                 }
             ]
+                }
+            ]
         }
-        
         
         
         
