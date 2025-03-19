@@ -114,7 +114,6 @@ function Row({ semester, courses, headers, language }) {
 // ✅ Main Component (Keeps Timeline & Grade Table)
 function ArticleTimeline({ data }) {
     const { selectedLanguageId } = useLanguage();
-    console.log("Debugging ArticleTimeline - Received Data:", data);
     const parser = useParser();
 
     // ✅ Extract items for Timeline
@@ -126,13 +125,9 @@ function ArticleTimeline({ data }) {
     // ✅ Extract semesters from `items[0].semesters`
     const semesters = data.items?.[0]?.semesters || [];
 
-    console.log("Extracted Semesters Data:", semesters);
-
     if (semesters.length === 0) {
         return <Typography variant="h6">No data available</Typography>;
     }
-
-    // ✅ Set default language (Modify if you have language selection)
     
     const groupedData = groupBySemester(semesters, selectedLanguageId);
     const headers = data.locales[selectedLanguageId];
@@ -157,7 +152,7 @@ function ArticleTimeline({ data }) {
                         <TableHead>
                             <TableRow>
                                 <TableCell />
-                                <TableCell>{headers.semester}</TableCell>
+                                <TableCell>{headers.transcript}</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
