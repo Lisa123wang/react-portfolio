@@ -28,7 +28,7 @@
     "articles": [
         {
             "id": "work",
-            "component": "ArticleTimeline",
+            "component": "ArticleThread",
             "config": {},
             "locales": {},
 
