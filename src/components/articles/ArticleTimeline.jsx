@@ -151,7 +151,7 @@ function ArticleTimeline({ data }) {
                     <TableHead>
                         <TableRow>
                             <TableCell colSpan={5} style={{  fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>
-                                {headers.transcript || "Transcript"}
+                                {headers.transcript}
                             </TableCell>
                             
                         </TableRow>
@@ -160,6 +160,8 @@ function ArticleTimeline({ data }) {
                         {Object.entries(groupedData).map(([semester, courses], index) => (
                             <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
                         ))}
+                        
+
                     </TableBody>
                 </Table>
             </TableContainer>

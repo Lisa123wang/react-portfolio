@@ -94,7 +94,7 @@
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Algorithms",
+                                        "en": "Python Program Design",
                                         "es": "Algoritmos",
                                         "fr": "Algorithmes",
                                         "ko": "알고리즘"
@@ -106,14 +106,14 @@
                                         "ko": "A"
                                     },
                                     "term": {
-                                        "en": "Full Semester",
+                                        "en": "Semester",
                                         "es": "Semestre Completo",
                                         "fr": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
-                                    "credits": 3,
+                                    "credits": 2,
                                     "category": {
-                                        "en": "Core",
+                                        "en": "Liberal Education",
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
@@ -121,7 +121,34 @@
                                 },
                                 {
                                     "course": {
-                                        "en": "Database Systems",
+                                        "en": "Introduction to Programming",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "C",
+                                        "es": "C",
+                                        "fr": "C",
+                                        "ko": "C"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Accounting",
                                         "es": "Sistemas de Bases de Datos",
                                         "fr": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
@@ -133,17 +160,233 @@
                                         "ko": "A"
                                     },
                                     "term": {
-                                        "en": "Full Semester",
+                                        "en": "Year",
                                         "es": "Semestre Completo",
                                         "fr": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
-                                        "en": "Core",
+                                        "en": "Required",
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Introduction to University Studies",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Physical Education",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 0,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Calculus",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Introduction to Business",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "All-out Defense Education Military Training",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 0,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Chinese",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Foreign Language(Intermediate Level English)",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Conduct",
+                                        "es": "Sistemas de Bases de Datos",
+                                        "fr": "Systèmes de Bases de Données",
+                                        "ko": "데이터베이스 시스템"
+                                    },
+                                    "grade": {
+                                        "en": "A, 86",
+                                        "es": "A, 86",
+                                        "fr": "A, 86",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
+                                    },
+                                    "credits": null,
+                                    "category": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
                                     }
                                 }
                             ]
@@ -170,7 +413,7 @@
                                         "ko": "A-"
                                     },
                                     "term": {
-                                        "en": "Full Semester",
+                                        "en": "Semester",
                                         "es": "Semestre Completo",
                                         "fr": "Semestre Complet",
                                         "ko": "전체 학기"
@@ -191,6 +434,191 @@
                                 "es": "Otoño 2022",
                                 "fr": "Automne 2022",
                                 "ko": "2022년 가을"
+                            },
+                            "courses": [
+                                {
+                                    "course": {
+                                        "en": "Software Engineering",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B+",
+                                        "es": "B+",
+                                        "fr": "B+",
+                                        "ko": "B+"
+                                    },
+                                    "term": {
+                                        "en": "Half Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "semester": {
+                                "en": "Spring 2023",
+                                "es": "Otoño 2023",
+                                "fr": "Automne 2023",
+                                "ko": "2023년 가을"
+                            },
+                            "courses": [
+                                {
+                                    "course": {
+                                        "en": "Software Engineering",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B+",
+                                        "es": "B+",
+                                        "fr": "B+",
+                                        "ko": "B+"
+                                    },
+                                    "term": {
+                                        "en": "Half Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "semester": {
+                                "en": "Fall 2023",
+                                "es": "Otoño 2023",
+                                "fr": "Automne 2023",
+                                "ko": "2023년 가을"
+                            },
+                            "courses": [
+                                {
+                                    "course": {
+                                        "en": "Software Engineering",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B+",
+                                        "es": "B+",
+                                        "fr": "B+",
+                                        "ko": "B+"
+                                    },
+                                    "term": {
+                                        "en": "Half Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "semester": {
+                                "en": "Spring 2024",
+                                "es": "Otoño 2024",
+                                "fr": "Automne 2024",
+                                "ko": "2024년 가을"
+                            },
+                            "courses": [
+                                {
+                                    "course": {
+                                        "en": "Software Engineering",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B+",
+                                        "es": "B+",
+                                        "fr": "B+",
+                                        "ko": "B+"
+                                    },
+                                    "term": {
+                                        "en": "Half Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "semester": {
+                                "en": "Fall 2024",
+                                "es": "Otoño 2024",
+                                "fr": "Automne 2024",
+                                "ko": "2024년 가을"
+                            },
+                            "courses": [
+                                {
+                                    "course": {
+                                        "en": "Software Engineering",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B+",
+                                        "es": "B+",
+                                        "fr": "B+",
+                                        "ko": "B+"
+                                    },
+                                    "term": {
+                                        "en": "Half Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "semester": {
+                                "en": "Spring 2025",
+                                "es": "Otoño 2025",
+                                "fr": "Automne 2025",
+                                "ko": "2025년 가을"
                             },
                             "courses": [
                                 {
