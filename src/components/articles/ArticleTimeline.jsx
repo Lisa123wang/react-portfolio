@@ -168,7 +168,7 @@ function ArticleTimeline({ data }) {
                         Download CSV
                     </Button>
                     <Button variant="contained" color="secondary" onClick={downloadPDF}>
-                        Download PDF
+                        Download Offical PDF
                     </Button>
                 </Box>
             </Box>
