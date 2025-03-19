@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLanguage } from '/src/providers/LanguageProvider.jsx';
 import Article from "/src/components/wrappers/Article.jsx";
 import Timeline from "/src/components/generic/Timeline.jsx";
 import { useParser } from "/src/helpers/parser.js";
@@ -112,6 +113,7 @@ function Row({ semester, courses, headers, language }) {
 
 // ✅ Main Component (Keeps Timeline & Grade Table)
 function ArticleTimeline({ data }) {
+    const { selectedLanguageId } = useLanguage();
     console.log("Debugging ArticleTimeline - Received Data:", data);
     const parser = useParser();
 
@@ -131,7 +133,7 @@ function ArticleTimeline({ data }) {
     }
 
     // ✅ Set default language (Modify if you have language selection)
-    const selectedLanguageId = "en";
+    
     const groupedData = groupBySemester(semesters, selectedLanguageId);
     const headers = data.locales[selectedLanguageId];
 
