@@ -139,6 +139,23 @@ function ArticleTimeline({ data }) {
 
             {/* ✅ Grade Table with Collapsible Rows */}
             <Box>
+                
+            <TableContainer component={Paper}>
+                <Table aria-label="collapsible table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell colSpan={2} style={{  fontSize: "1.5rem", fontWeight: "bold" }}>
+                                {headers.transcript || "Transcript"}
+                            </TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {Object.entries(groupedData).map(([semester, courses], index) => (
+                            <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
                 <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
                     <Button variant="contained" color="primary" onClick={() => downloadCSV(groupedData, headers)} sx={{ mr: 1 }}>
                         Download CSV
@@ -147,21 +164,6 @@ function ArticleTimeline({ data }) {
                         Download PDF
                     </Button>
                 </Box>
-                <TableContainer component={Paper}>
-                    <Table aria-label="collapsible table">
-                        <TableHead>
-                            <TableRow>
-                                <TableCell />
-                                <TableCell>{headers.transcript}</TableCell>
-                            </TableRow>
-                        </TableHead>
-                        <TableBody>
-                            {Object.entries(groupedData).map(([semester, courses], index) => (
-                                <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
-                            ))}
-                        </TableBody>
-                    </Table>
-                </TableContainer>
             </Box>
         </Article>
     );
