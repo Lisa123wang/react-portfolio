@@ -961,22 +961,211 @@
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Software Engineering",
+                                        "en": "Basic English Conversation",
                                         "es": "Ingeniería de Software",
                                         "fr": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B+",
-                                        "es": "B+",
-                                        "fr": "B+",
-                                        "ko": "B+"
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
                                     },
                                     "term": {
-                                        "en": "Half Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
-                                        "ko": "반 학기"
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Tae kwon Do",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 0,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Data Structures",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Data Communication and Network",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "System Analysis and Design",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Economics",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Statistics",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Cloud Application Programming",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
@@ -984,6 +1173,33 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Conduct",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A, 86",
+                                        "es": "A, 86",
+                                        "fr": "A, 86",
+                                        "ko": "A, 86"
+                                    },
+                                    "term": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
+                                    },
+                                    "credits": null,
+                                    "category": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
                                     }
                                 }
                             ]
