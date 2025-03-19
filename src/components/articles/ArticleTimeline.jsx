@@ -84,9 +84,7 @@ function Row({ semester, courses, headers, language }) {
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
-                            <Typography variant="h6" gutterBottom component="div">
-                                {headers.course} & {headers.grade}
-                            </Typography>
+                           
                             <Table size="small" aria-label="grades">
                                 <TableHead>
                                     <TableRow>

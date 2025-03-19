@@ -401,16 +401,16 @@
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Data Structures",
+                                        "en": "The age of the Renaissance",
                                         "es": "Estructuras de Datos",
                                         "fr": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A-",
-                                        "es": "A-",
-                                        "fr": "A-",
-                                        "ko": "A-"
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -418,12 +418,282 @@
                                         "fr": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
-                                    "credits": 4,
+                                    "credits": 2,
                                     "category": {
-                                        "en": "Core",
+                                        "en": "Liberal Education",
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Mobil Application Programming",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Liberal Education",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Front-end Web Design",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Accounting",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits":3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Physical Education",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 0,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Foreign Language(Intermediate Level English)",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Chinese",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "All-out Defense Education Military Training",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 0,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Calculus",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A",
+                                        "es": "A",
+                                        "fr": "A",
+                                        "ko": "A"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Advanced Programming Techniques",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "B",
+                                        "es": "B",
+                                        "fr": "B",
+                                        "ko": "B"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre Completo",
+                                        "fr": "Semestre Complet",
+                                        "ko": "전체 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Núcleo",
+                                        "fr": "Noyau",
+                                        "ko": "핵심"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Conduct",
+                                        "es": "Estructuras de Datos",
+                                        "fr": "Structures de Données",
+                                        "ko": "데이터 구조"
+                                    },
+                                    "grade": {
+                                        "en": "A, 86",
+                                        "es": "A, 86",
+                                        "fr": "A, 86",
+                                        "ko": "A, 86"
+                                    },
+                                    "term": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
+                                    },
+                                    "credits": null,
+                                    "category": {
+                                        "en": "",
+                                        "es": "",
+                                        "fr": "",
+                                        "ko": ""
                                     }
                                 }
                             ]
