@@ -33,10 +33,10 @@ function groupBySemester(semesters, language) {
 
 // ✅ CSV Download Function
 function downloadCSV(data, headers) {
-    let csvContent = `${headers.semester},${headers.course},${headers.grade}\n`;
+    let csvContent = `${headers.semester},${headers.course},${headers.term},${headers.credits},${headers.category},${headers.grade}\n`;
     Object.entries(data).forEach(([semester, courses]) => {
         courses.forEach(course => {
-            csvContent += `${semester},${course.course.en},${course.grade.en}\n`;
+            csvContent += `${semester},${course.course.en},${course.term.en},${course.credits},${course.category.en},${course.grade.en}\n`;
         });
     });
 
@@ -60,7 +60,7 @@ function downloadPDF() {
     document.body.removeChild(link);
 }
 
-// ✅ Collapsible Row Component
+// ✅ Collapsible Row Component with Additional Columns
 function Row({ semester, courses, headers, language }) {
     const [open, setOpen] = useState(false);
 
@@ -76,12 +76,12 @@ function Row({ semester, courses, headers, language }) {
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell component="th" scope="row" colSpan={2}>
+                <TableCell component="th" scope="row" colSpan={5}>
                     <Typography variant="h6">{semester}</Typography>
                 </TableCell>
             </TableRow>
             <TableRow>
-                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={3}>
+                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
                             <Typography variant="h6" gutterBottom component="div">
@@ -91,6 +91,9 @@ function Row({ semester, courses, headers, language }) {
                                 <TableHead>
                                     <TableRow>
                                         <TableCell>{headers.course}</TableCell>
+                                        <TableCell>{headers.term}</TableCell>
+                                        <TableCell align="center">{headers.credits}</TableCell>
+                                        <TableCell align="center">{headers.category}</TableCell>
                                         <TableCell align="center">{headers.grade}</TableCell>
                                     </TableRow>
                                 </TableHead>
@@ -98,6 +101,9 @@ function Row({ semester, courses, headers, language }) {
                                     {courses.map((course, index) => (
                                         <TableRow key={index}>
                                             <TableCell>{course.course[language]}</TableCell>
+                                            <TableCell>{course.term[language]}</TableCell>
+                                            <TableCell align="center">{course.credits}</TableCell>
+                                            <TableCell align="center">{course.category[language]}</TableCell>
                                             <TableCell align="center">{course.grade[language]}</TableCell>
                                         </TableRow>
                                     ))}
@@ -144,9 +150,10 @@ function ArticleTimeline({ data }) {
                 <Table aria-label="collapsible table">
                     <TableHead>
                         <TableRow>
-                            <TableCell colSpan={2} style={{  fontSize: "1.5rem", fontWeight: "bold" }}>
+                            <TableCell colSpan={5} style={{  fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>
                                 {headers.transcript || "Transcript"}
                             </TableCell>
+                            
                         </TableRow>
                     </TableHead>
                     <TableBody>
