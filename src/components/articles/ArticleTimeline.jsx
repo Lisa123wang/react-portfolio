@@ -49,7 +49,7 @@ function downloadCSV(data, headers) {
     document.body.removeChild(link);
 }
 
-// ✅ PDF Download Function (Update file URL)
+// ✅ PDF Download Function
 function downloadPDF() {
     const pdfUrl = '410402446.pdf'; // Update this to your correct PDF path
     const link = document.createElement('a');
@@ -60,52 +60,96 @@ function downloadPDF() {
     document.body.removeChild(link);
 }
 
-// ✅ Collapsible Row Component with Additional Columns
-function Row({ semester, courses, headers, language }) {
+// ✅ Collapsible Row Component (Includes Summary & Conduct Rows)
+function Row({ 
+    semester, 
+    courses, 
+    headers, 
+    language, 
+    totalCredits, 
+    averageGPA, 
+    classRank, 
+    classSize, 
+    averageGrade, 
+    conduct 
+}) {
     const [open, setOpen] = useState(false);
+
+    // ✅ Conduct Data with Defaults
+    const conductAverageGrade = conduct?.averageGrade !== undefined ? conduct.averageGrade : "A";
+    const conductGPA = conduct?.gpa !== undefined ? conduct.gpa : "4.0";
+    const conductGrade = conduct?.grade !== undefined ? conduct.grade : "86.00";
 
     return (
         <>
-            <TableRow sx={{ '& > *': { borderBottom: 'unset' } }}>
+            {/* Semester Title Row */}
+            <TableRow>
                 <TableCell>
-                    <IconButton
-                        aria-label="expand row"
-                        size="small"
-                        onClick={() => setOpen(!open)}
-                    >
+                    <IconButton onClick={() => setOpen(!open)}>
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell component="th" scope="row" colSpan={5}>
+                <TableCell colSpan={7}>
                     <Typography variant="h6">{semester}</Typography>
                 </TableCell>
             </TableRow>
+
+            {/* Expandable Course Details */}
             <TableRow>
-                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
+                <TableCell colSpan={8} style={{ paddingBottom: 0, paddingTop: 0 }}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
-                            <Table size="small" aria-label="grades">
+                            <Table size="small">
                                 <TableHead>
                                     <TableRow>
-                                        <TableCell>{headers.course}</TableCell>
-                                        <TableCell>{headers.term}</TableCell>
+                                        <TableCell colSpan={2}>{headers.course}</TableCell>
+                                        <TableCell align="center">{headers.term}</TableCell>
                                         <TableCell align="center">{headers.credits}</TableCell>
                                         <TableCell align="center">{headers.category}</TableCell>
                                         <TableCell align="center">{headers.grade}</TableCell>
-                                        <TableCell align="center">GPA</TableCell> {/* ✅ New Column */}
+                                        <TableCell align="center">GPA</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
                                     {courses.map((course, index) => (
                                         <TableRow key={index}>
-                                            <TableCell>{course.course[language]}</TableCell>
-                                            <TableCell>{course.term[language]}</TableCell>
+                                            <TableCell colSpan={2}>{course.course[language]}</TableCell>
+                                            <TableCell align="center">{course.term[language]}</TableCell>
                                             <TableCell align="center">{course.credits}</TableCell>
                                             <TableCell align="center">{course.category[language]}</TableCell>
                                             <TableCell align="center">{course.grade[language]}</TableCell>
-                                            <TableCell align="center">{course.gpa !== undefined ? course.gpa : 4}</TableCell> {/* ✅ Use course.gpa, default to 4 */}
+                                            <TableCell align="center">{course.gpa !== undefined ? course.gpa : 4}</TableCell>
                                         </TableRow>
                                     ))}
+
+                                    {/* ✅ Semester Summary Row */}
+                                    <TableRow>
+                                        <TableCell colSpan={3} align="right" sx={{ fontWeight: "bold" }}>
+                                            Total Credits: {totalCredits || "N/A"}
+                                        </TableCell>
+                                        <TableCell colSpan={2} align="right" sx={{ fontWeight: "bold" }}>
+                                            Avg Grade: {averageGrade || "N/A"}
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                            Avg GPA: {averageGPA || "N/A"}
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                            Class Rank/Size: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
+                                        </TableCell>
+                                    </TableRow>
+
+                                    {/* ✅ Conduct Row */}
+                                    <TableRow>
+                                        <TableCell colSpan={5} align="right" sx={{ fontWeight: "bold" }}>
+                                            Conduct Avg Grade: {conductAverageGrade}
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                            Conduct GPA: {conductGPA}
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                            Conduct Grade: {conductGrade}
+                                        </TableCell>
+                                    </TableRow>
                                 </TableBody>
                             </Table>
                         </Box>
@@ -116,18 +160,16 @@ function Row({ semester, courses, headers, language }) {
     );
 }
 
-// ✅ Main Component (Keeps Timeline & Grade Table)
+// ✅ Main Component
 function ArticleTimeline({ data }) {
     const { selectedLanguageId } = useLanguage();
     const parser = useParser();
 
-    // ✅ Extract items for Timeline
     const parsedData = parser.parseArticleData(data);
     const items = parsedData.items;
     parser.sortArticleItemsByDateDesc(items);
     const parsedItems = parser.formatForTimeline(items);
 
-    // ✅ Extract semesters from `items[0].semesters`
     const semesters = data.items?.[0]?.semesters || [];
 
     if (semesters.length === 0) {
@@ -138,37 +180,35 @@ function ArticleTimeline({ data }) {
     const headers = data.locales[selectedLanguageId];
 
     return (
-        <Article className={`article-timeline`} title={parsedData.title}>
-            {/* ✅ Timeline Data Display */}
+        <Article className="article-timeline" title={parsedData.title}>
             <Timeline items={parsedItems} />
 
-            {/* ✅ Grade Table with Collapsible Rows */}
             <Box>
-                
-            <TableContainer component={Paper}>
-                <Table aria-label="collapsible table">
-                    <TableHead>
-                        <TableRow>
-                            <TableCell colSpan={6} style={{  fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>
-                                {headers.transcript}
-                            </TableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {Object.entries(groupedData).map(([semester, courses], index) => (
-                            <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
-                        ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-                <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
-                    <Button variant="contained" color="primary" onClick={() => downloadCSV(groupedData, headers)} sx={{ mr: 1 }}>
-                        Download CSV
-                    </Button>
-                    <Button variant="contained" color="secondary" onClick={downloadPDF}>
-                        Download Official PDF
-                    </Button>
-                </Box>
+                <TableContainer component={Paper}>
+                    <Table aria-label="collapsible table">
+                        <TableBody>
+                            {Object.entries(groupedData).map(([semester, courses], index) => {
+                                const semesterDetails = semesters.find((s) => s.semester[selectedLanguageId] === semester);
+
+                                return (
+                                    <Row 
+                                        key={index} 
+                                        semester={semester} 
+                                        courses={courses} 
+                                        headers={headers} 
+                                        language={selectedLanguageId} 
+                                        totalCredits={semesterDetails?.totalCredits}
+                                        averageGPA={semesterDetails?.averageGPA}
+                                        classRank={semesterDetails?.classRankSize?.split('/')[0]}
+                                        classSize={semesterDetails?.classRankSize?.split('/')[1]}
+                                        averageGrade={semesterDetails?.averageGrade}
+                                        conduct={semesterDetails?.conduct} 
+                                    />
+                                );
+                            })}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
             </Box>
         </Article>
     );

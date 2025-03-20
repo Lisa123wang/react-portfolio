@@ -91,6 +91,10 @@
                                 "fr": "Automne 2021",
                                 "ko": "2021년 가을"
                             },
+                            "totalCredits": 20,
+                            "averageGrade": "B+",
+                            "averageGPA": 3.8,
+                            "classRankSize": "5/30",
                             "courses": [
                                 {
                                     "course": {
