@@ -361,33 +361,6 @@
                                         "fr": "Noyau",
                                         "ko": "핵심"
                                     }
-                                },
-                                {
-                                    "course": {
-                                        "en": "Conduct",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
-                                        "ko": "데이터베이스 시스템"
-                                    },
-                                    "grade": {
-                                        "en": "A, 86",
-                                        "es": "A, 86",
-                                        "fr": "A, 86",
-                                        "ko": "A"
-                                    },
-                                    "term": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    },
-                                    "credits": null,
-                                    "category": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    }
                                 }
                             ]
                         },
@@ -668,33 +641,6 @@
                                         "fr": "Noyau",
                                         "ko": "핵심"
                                     }
-                                },
-                                {
-                                    "course": {
-                                        "en": "Conduct",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
-                                        "ko": "데이터 구조"
-                                    },
-                                    "grade": {
-                                        "en": "A, 86",
-                                        "es": "A, 86",
-                                        "fr": "A, 86",
-                                        "ko": "A, 86"
-                                    },
-                                    "term": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    },
-                                    "credits": null,
-                                    "category": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    }
                                 }
                             ]
                         },
@@ -921,33 +867,6 @@
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
                                     }
-                                },
-                                {
-                                    "course": {
-                                        "en": "Conduct",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
-                                        "ko": "소프트웨어 공학"
-                                    },
-                                    "grade": {
-                                        "en": "A, 86",
-                                        "es": "A, 86",
-                                        "fr": "A, 86",
-                                        "ko": "A, 86"
-                                    },
-                                    "term": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    },
-                                    "credits": null,
-                                    "category": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    }
                                 }
                             ]
                         },
@@ -1173,33 +1092,6 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
-                                },
-                                {
-                                    "course": {
-                                        "en": "Conduct",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
-                                        "ko": "소프트웨어 공학"
-                                    },
-                                    "grade": {
-                                        "en": "A, 86",
-                                        "es": "A, 86",
-                                        "fr": "A, 86",
-                                        "ko": "A, 86"
-                                    },
-                                    "term": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
-                                    },
-                                    "credits": null,
-                                    "category": {
-                                        "en": "",
-                                        "es": "",
-                                        "fr": "",
-                                        "ko": ""
                                     }
                                 }
                             ]

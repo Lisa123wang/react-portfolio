@@ -33,10 +33,10 @@ function groupBySemester(semesters, language) {
 
 // ✅ CSV Download Function
 function downloadCSV(data, headers) {
-    let csvContent = `${headers.semester},${headers.course},${headers.term},${headers.credits},${headers.category},${headers.grade}\n`;
+    let csvContent = `${headers.semester},${headers.course},${headers.term},${headers.credits},${headers.category},${headers.grade},GPA\n`;
     Object.entries(data).forEach(([semester, courses]) => {
         courses.forEach(course => {
-            csvContent += `${semester},${course.course.en},${course.term.en},${course.credits},${course.category.en},${course.grade.en}\n`;
+            csvContent += `${semester},${course.course.en},${course.term.en},${course.credits},${course.category.en},${course.grade.en},${course.gpa !== undefined ? course.gpa : 4}\n`;
         });
     });
 
@@ -84,7 +84,6 @@ function Row({ semester, courses, headers, language }) {
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
-                           
                             <Table size="small" aria-label="grades">
                                 <TableHead>
                                     <TableRow>
@@ -93,6 +92,7 @@ function Row({ semester, courses, headers, language }) {
                                         <TableCell align="center">{headers.credits}</TableCell>
                                         <TableCell align="center">{headers.category}</TableCell>
                                         <TableCell align="center">{headers.grade}</TableCell>
+                                        <TableCell align="center">GPA</TableCell> {/* ✅ New Column */}
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
@@ -103,6 +103,7 @@ function Row({ semester, courses, headers, language }) {
                                             <TableCell align="center">{course.credits}</TableCell>
                                             <TableCell align="center">{course.category[language]}</TableCell>
                                             <TableCell align="center">{course.grade[language]}</TableCell>
+                                            <TableCell align="center">{course.gpa !== undefined ? course.gpa : 4}</TableCell> {/* ✅ Use course.gpa, default to 4 */}
                                         </TableRow>
                                     ))}
                                 </TableBody>
@@ -148,18 +149,15 @@ function ArticleTimeline({ data }) {
                 <Table aria-label="collapsible table">
                     <TableHead>
                         <TableRow>
-                            <TableCell colSpan={5} style={{  fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>
+                            <TableCell colSpan={6} style={{  fontSize: "1.5rem", fontWeight: "bold", textAlign: "center" }}>
                                 {headers.transcript}
                             </TableCell>
-                            
                         </TableRow>
                     </TableHead>
                     <TableBody>
                         {Object.entries(groupedData).map(([semester, courses], index) => (
                             <Row key={index} semester={semester} courses={courses} headers={headers} language={selectedLanguageId} />
                         ))}
-                        
-
                     </TableBody>
                 </Table>
             </TableContainer>
@@ -168,7 +166,7 @@ function ArticleTimeline({ data }) {
                         Download CSV
                     </Button>
                     <Button variant="contained" color="secondary" onClick={downloadPDF}>
-                        Download Offical PDF
+                        Download Official PDF
                     </Button>
                 </Box>
             </Box>
