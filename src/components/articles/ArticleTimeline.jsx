@@ -32,9 +32,6 @@ function groupBySemester(semesters, language) {
 }
 
 
-
-
-
 // ✅ PDF Download Function
 function downloadPDF() {
     const pdfUrl = '410402446.pdf'; // Update this to your correct PDF path
@@ -44,9 +41,9 @@ function downloadPDF() {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-}
-
-// ✅ Collapsible Row Component
+ }
+ 
+// ✅ Collapsible Row Component (Includes Summary & Conduct Rows)
 function Row({ 
     semester, 
     courses, 
@@ -60,6 +57,11 @@ function Row({
     conduct 
 }) {
     const [open, setOpen] = useState(false);
+
+    // ✅ Conduct Data with Defaults
+    const conductAverageGrade = conduct?.averageGrade !== undefined ? conduct.averageGrade : "A";
+    const conductGPA = conduct?.gpa !== undefined ? conduct.gpa : "4.0";
+    const conductGrade = conduct?.grade !== undefined ? conduct.grade : "86.00";
 
     return (
         <>
@@ -118,6 +120,20 @@ function Row({
                                             Class Rank/Size: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
                                         </TableCell>
                                     </TableRow>
+
+                                    {/* ✅ Conduct Row */}
+                                    <TableRow>
+                                        <TableCell colSpan={5} align="right" sx={{ fontWeight: "bold" }}>
+                                        Conduct Grade: {conductGrade}
+                                            
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                            Conduct GPA: {conductGPA}
+                                        </TableCell>
+                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                        Conduct Avg Grade: {conductAverageGrade}
+                                        </TableCell>
+                                    </TableRow>
                                 </TableBody>
                             </Table>
                         </Box>
@@ -170,20 +186,20 @@ function ArticleTimeline({ data }) {
                                         classRank={semesterDetails?.classRankSize?.split('/')[0]}
                                         classSize={semesterDetails?.classRankSize?.split('/')[1]}
                                         averageGrade={semesterDetails?.averageGrade}
+                                        conduct={semesterDetails?.conduct} 
                                     />
                                 );
                             })}
                         </TableBody>
                     </Table>
                 </TableContainer>
-
                 {/* ✅ Download Buttons */}
-                <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
-                    
-                    <Button variant="contained" color="primary" onClick={downloadPDF}>
-                        Download Official Transcript
-                    </Button>
-                </Box>
+               <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
+                  
+                  <Button variant="contained" color="primary" onClick={downloadPDF}>
+                      Download Official Transcript
+                  </Button>
+              </Box>
             </Box>
         </Article>
     );
