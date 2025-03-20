@@ -123,12 +123,10 @@ function Row({
 
                                     {/* ✅ Conduct Row */}
                                     <TableRow>
-                                        <TableCell colSpan={6} align="right" >
-                                        Conduct Grade: {conductGrade}
+                                        <TableCell colSpan={7} align="right" >
+                                        Conduct Grade: {conductAverageGrade}({conductGrade})
                                         </TableCell>
-                                        <TableCell align="right" >
-                                        Conduct Grade: {conductAverageGrade}
-                                        </TableCell>
+                                        
                                     </TableRow>
                                 </TableBody>
                             </Table>

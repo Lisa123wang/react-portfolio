@@ -1483,26 +1483,134 @@
                                 "fr": "Automne 2024",
                                 "ko": "2024년 가을"
                             },
-                            "totalCredits": 20,
-                            "averageGrade": "81.30",
-                            "averageGPA": 3.55,
-                            "classRankSize": "13/56",
+                            "totalCredits": 13,
+                            "averageGrade": "87.85",
+                            "averageGPA": 4,
+                            "classRankSize": "18/55",
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Software Engineering",
+                                        "en": "Interior Design and Furniture appreciation",
                                         "es": "Ingeniería de Software",
                                         "fr": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B+",
-                                        "es": "B+",
-                                        "fr": "B+",
-                                        "ko": "B+"
+                                        "en": "A(81)",
+                                        "es": "A(81)",
+                                        "fr": "A(81)",
+                                        "ko": "A(81)"
                                     },
                                     "term": {
-                                        "en": "Half Semester",
+                                        "en": "Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Liberal Education",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Perspective Rendering Techniques",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(88)",
+                                        "es": "A(88)",
+                                        "fr": "A(88)",
+                                        "ko": "A(88)"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "C Language",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(84)",
+                                        "es": "A(84)",
+                                        "fr": "A(84)",
+                                        "ko": "A(84)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Industry Practices in Artificial Intelligence",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(92)",
+                                        "es": "A(92)",
+                                        "fr": "A(92)",
+                                        "ko": "A(92)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Computer Graphics",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(92)",
+                                        "es": "A(92)",
+                                        "fr": "A(92)",
+                                        "ko": "A(92)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
                                         "es": "Medio Semestre",
                                         "fr": "Demi-Semestre",
                                         "ko": "반 학기"
