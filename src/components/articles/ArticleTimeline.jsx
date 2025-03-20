@@ -43,7 +43,8 @@ function downloadPDF() {
     document.body.removeChild(link);
  }
  
-// ✅ Collapsible Row Component (Includes Summary & Conduct Rows)
+
+
 function Row({ 
     semester, 
     courses, 
@@ -59,74 +60,90 @@ function Row({
     const [open, setOpen] = useState(false);
 
     // ✅ Conduct Data with Defaults
-    const conductAverageGrade = conduct?.averageGrade !== undefined ? conduct.averageGrade : "A";
-    const conductGPA = conduct?.gpa !== undefined ? conduct.gpa : "4.0";
-    const conductGrade = conduct?.grade !== undefined ? conduct.grade : "86.00";
+    const conductAverageGrade = conduct?.averageGrade ?? "A";
+    const conductGrade = conduct?.grade ?? "86.00";
 
     return (
         <>
             {/* Semester Title Row */}
-            <TableRow>
+            <TableRow sx={{ backgroundColor: "var(--theme-soft-2)", color: "var(--theme-text-color)" }}>
                 <TableCell>
-                    <IconButton onClick={() => setOpen(!open)}>
+                    <IconButton 
+                        onClick={() => setOpen(!open)} 
+                        sx={{ color: "var(--theme-text-color)" }}
+                    >
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
-                <TableCell colSpan={7}>
+                <TableCell colSpan={7} sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
                     <Typography variant="h6">{semester}</Typography>
                 </TableCell>
             </TableRow>
 
             {/* Expandable Course Details */}
             <TableRow>
-                <TableCell colSpan={8} style={{ paddingBottom: 0, paddingTop: 0 }}>
+                <TableCell colSpan={8} sx={{ paddingBottom: 0, paddingTop: 0, backgroundColor: "var(--theme-soft)" }}>
                     <Collapse in={open} timeout="auto" unmountOnExit>
-                        <Box sx={{ margin: 1 }}>
+                        <Box sx={{ margin: 1, backgroundColor: "var(--theme-soft)", color: "var(--theme-text-color)" }}>
                             <Table size="small">
-                                <TableHead>
+                                <TableHead sx={{ backgroundColor: "var(--theme-soft-2)", color: "var(--theme-text-color)" }}>
                                     <TableRow>
-                                        <TableCell colSpan={2}>{headers.course}</TableCell>
-                                        <TableCell align="center">{headers.term}</TableCell>
-                                        <TableCell align="center">{headers.credits}</TableCell>
-                                        <TableCell align="center">{headers.category}</TableCell>
-                                        <TableCell align="center">{headers.grade}</TableCell>
-                                        <TableCell align="center">GPA</TableCell>
+                                        <TableCell colSpan={2} sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            {headers.course}
+                                        </TableCell>
+                                        <TableCell align="center" sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            {headers.term}
+                                        </TableCell>
+                                        <TableCell align="center" sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)"}}>
+                                            {headers.credits}
+                                        </TableCell>
+                                        <TableCell align="center" sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            {headers.category}
+                                        </TableCell>
+                                        <TableCell align="center" sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            {headers.grade}
+                                        </TableCell>
+                                        <TableCell align="center" sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            GPA
+                                        </TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
                                     {courses.map((course, index) => (
-                                        <TableRow key={index}>
-                                            <TableCell colSpan={2}>{course.course[language]}</TableCell>
-                                            <TableCell align="center">{course.term[language]}</TableCell>
-                                            <TableCell align="center">{course.credits}</TableCell>
-                                            <TableCell align="center">{course.category[language]}</TableCell>
-                                            <TableCell align="center">{course.grade[language]}</TableCell>
-                                            <TableCell align="center">{course.gpa !== undefined ? course.gpa : 4}</TableCell>
+                                        <TableRow 
+                                            key={index} 
+                                            sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-text-color)" }}
+                                        >
+                                            <TableCell colSpan={2}sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.course[language]}</TableCell>
+                                            <TableCell align="center"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.term[language]}</TableCell>
+                                            <TableCell align="center"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.credits}</TableCell>
+                                            <TableCell align="center"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.category[language]}</TableCell>
+                                            <TableCell align="center"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.grade[language]}</TableCell>
+                                            <TableCell align="center"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>{course.gpa !== undefined ? course.gpa : 4}</TableCell>
                                         </TableRow>
                                     ))}
 
                                     {/* ✅ Semester Summary Row */}
-                                    <TableRow>
-                                        <TableCell colSpan={3} align="right" sx={{ fontWeight: "bold" }}>
-                                            Total Credits: {totalCredits || "N/A"}
+                                    <TableRow sx={{ backgroundColor: "var(--theme-soft-2)", color: "var(--theme-text-color)", fontWeight: "bold" }}>
+                                        <TableCell colSpan={3} align="right"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            Total Credits: {totalCredits ?? "N/A"}
                                         </TableCell>
-                                        <TableCell colSpan={2} align="right" sx={{ fontWeight: "bold" }}>
-                                            Avg Grade: {averageGrade || "N/A"}
+                                        <TableCell colSpan={2} align="right"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            Avg Grade: {averageGrade ?? "N/A"}
                                         </TableCell>
-                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                                            Avg GPA: {averageGPA || "N/A"}
+                                        <TableCell align="right"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            Avg GPA: {averageGPA ?? "N/A"}
                                         </TableCell>
-                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
+                                        <TableCell align="right"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
                                             Class Rank/Size: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
                                         </TableCell>
                                     </TableRow>
 
                                     {/* ✅ Conduct Row */}
-                                    <TableRow>
-                                        <TableCell colSpan={7} align="right" >
-                                        Conduct Grade: {conductAverageGrade}({conductGrade})
+                                    <TableRow sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-text-color)" }}>
+                                        <TableCell colSpan={7} align="right"sx={{ color: "var(--theme-text-color)", color: "var(--theme-text-color)" }}>
+                                            Conduct Grade: {conductAverageGrade} ({conductGrade})
                                         </TableCell>
-                                        
                                     </TableRow>
                                 </TableBody>
                             </Table>
@@ -137,6 +154,9 @@ function Row({
         </>
     );
 }
+
+
+
 
 // ✅ Main Component
 function ArticleTimeline({ data }) {
