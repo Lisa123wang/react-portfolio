@@ -104,10 +104,10 @@
                                         "ko": "알고리즘"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -131,10 +131,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "C",
-                                        "es": "C",
-                                        "fr": "C",
-                                        "ko": "C"
+                                        "en": "C(65)",
+                                        "es": "C(65)",
+                                        "fr": "C(65)",
+                                        "ko": "C(65)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -148,7 +148,8 @@
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
-                                    }
+                                    },
+                                    "gpa":2
                                 },
                                 {
                                     "course": {
@@ -158,10 +159,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(81)",
+                                        "es": "A(81)",
+                                        "fr": "A(81)",
+                                        "ko": "A(81)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -185,10 +186,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(87)",
+                                        "es": "A(87)",
+                                        "fr": "A(87)",
+                                        "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -212,10 +213,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(88)",
+                                        "es": "A(88)",
+                                        "fr": "A(88)",
+                                        "ko": "A(88)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -239,10 +240,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(78)",
+                                        "es": "B(78)",
+                                        "fr": "B(78)",
+                                        "ko": "B(78)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -256,7 +257,8 @@
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -266,10 +268,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(82)",
+                                        "es": "A(82)",
+                                        "fr": "A(82)",
+                                        "ko": "A(82)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -293,10 +295,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -320,10 +322,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(87)",
+                                        "es": "A(87)",
+                                        "fr": "A(87)",
+                                        "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -347,10 +349,10 @@
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(91)",
+                                        "es": "A(91)",
+                                        "fr": "A(91)",
+                                        "ko": "A(91)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -1120,25 +1122,134 @@
                                 "ko": "2023년 가을"
                             },
                             "totalCredits": 13,
-                            "averageGrade": "86.54",
+                            "averageGrade": "A",
                             "averageGPA": 3.77,
                             "classRankSize": "15/60",
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Software Engineering",
+                                        "en": "Philosophy of Life",
                                         "es": "Ingeniería de Software",
                                         "fr": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B+",
-                                        "es": "B+",
-                                        "fr": "B+",
-                                        "ko": "B+"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
-                                        "en": "Half Semester",
+                                        "en": "Year",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Information System Project (I)",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(90)",
+                                        "es": "A(90)",
+                                        "fr": "A(90)",
+                                        "ko": "A(90)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Operating System",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "B(78)",
+                                        "es": "B(78)",
+                                        "fr": "B(78)",
+                                        "ko": "B(78)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    },
+                                    "gpa":3
+                                },
+                                {
+                                    "course": {
+                                        "en": "Interactive Program Logic Design",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(94)",
+                                        "es": "A(94)",
+                                        "fr": "A(94)",
+                                        "ko": "A(94)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Medio Semestre",
+                                        "fr": "Demi-Semestre",
+                                        "ko": "반 학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Financial Management",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(85)",
+                                        "es": "A(85)",
+                                        "fr": "A(85)",
+                                        "ko": "A(85)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
                                         "es": "Medio Semestre",
                                         "fr": "Demi-Semestre",
                                         "ko": "반 학기"
