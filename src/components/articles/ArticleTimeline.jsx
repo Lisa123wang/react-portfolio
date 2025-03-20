@@ -223,11 +223,21 @@ function ArticleTimeline({ data }) {
                 </TableContainer>
                 {/* ✅ Download Buttons */}
                <Box sx={{ display: 'flex', justifyContent: 'flex-end', mt: 2 }}>
-                  
-                  <Button variant="contained" color="primary" onClick={downloadPDF}>
-                      Download Official Transcript
-                  </Button>
-              </Box>
+    <Button 
+        onClick={downloadPDF}
+        sx={{
+            backgroundColor: "var(--theme-highlight)",  // Default background
+            color: "var(--theme-main)",  // Default text color
+            fontWeight: "bold",
+            '&:hover': {
+                backgroundColor: "var(--theme-highlight-2)", // Slightly lighter on hover
+            },
+        }}
+    >
+        Download Official Transcript
+    </Button>
+</Box>
+
             </Box>
         </Article>
     );
