@@ -92,9 +92,9 @@
                                 "ko": "2021년 가을"
                             },
                             "totalCredits": 20,
-                            "averageGrade": "B+",
-                            "averageGPA": 3.8,
-                            "classRankSize": "5/30",
+                            "averageGrade": "81.30",
+                            "averageGPA": 3.74,
+                            "classRankSize": "8/56",
                             "courses": [
                                 {
                                     "course": {
@@ -375,6 +375,10 @@
                                 "fr": "Printemps 2022",
                                 "ko": "2022년 봄"
                             },
+                            "totalCredits": 19,
+                            "averageGrade": "82.84",
+                            "averageGPA": 3.55,
+                            "classRankSize": "13/56",
                             "courses": [
                                 {
                                     "course": {
@@ -655,6 +659,10 @@
                                 "fr": "Automne 2022",
                                 "ko": "2022년 가을"
                             },
+                            "totalCredits": 19,
+                            "averageGrade": "80.79",
+                            "averageGPA": 3.37,
+                            "classRankSize": "13/62",
                             "courses": [
                                 {
                                     "course": {
@@ -881,6 +889,10 @@
                                 "fr": "Automne 2023",
                                 "ko": "2023년 가을"
                             },
+                            "totalCredits": 20,
+                            "averageGrade": "76.70",
+                            "averageGPA": 3.40,
+                            "classRankSize": "19/61",
                             "courses": [
                                 {
                                     "course": {
@@ -1107,6 +1119,10 @@
                                 "fr": "Automne 2023",
                                 "ko": "2023년 가을"
                             },
+                            "totalCredits": 13,
+                            "averageGrade": "86.54",
+                            "averageGPA": 3.77,
+                            "classRankSize": "15/60",
                             "courses": [
                                 {
                                     "course": {
@@ -1144,6 +1160,10 @@
                                 "fr": "Automne 2024",
                                 "ko": "2024년 가을"
                             },
+                            "totalCredits": 19,
+                            "averageGrade": "83.68",
+                            "averageGPA": 3.68,
+                            "classRankSize": "36/59",
                             "courses": [
                                 {
                                     "course": {
@@ -1181,6 +1201,10 @@
                                 "fr": "Automne 2024",
                                 "ko": "2024년 가을"
                             },
+                            "totalCredits": 20,
+                            "averageGrade": "81.30",
+                            "averageGPA": 3.55,
+                            "classRankSize": "13/56",
                             "courses": [
                                 {
                                     "course": {
