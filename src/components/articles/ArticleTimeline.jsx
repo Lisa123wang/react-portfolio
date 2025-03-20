@@ -123,15 +123,11 @@ function Row({
 
                                     {/* ✅ Conduct Row */}
                                     <TableRow>
-                                        <TableCell colSpan={5} align="right" sx={{ fontWeight: "bold" }}>
+                                        <TableCell colSpan={6} align="right" >
                                         Conduct Grade: {conductGrade}
-                                            
                                         </TableCell>
-                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                                            Conduct GPA: {conductGPA}
-                                        </TableCell>
-                                        <TableCell align="right" sx={{ fontWeight: "bold" }}>
-                                        Conduct Avg Grade: {conductAverageGrade}
+                                        <TableCell align="right" >
+                                        Conduct Grade: {conductAverageGrade}
                                         </TableCell>
                                     </TableRow>
                                 </TableBody>

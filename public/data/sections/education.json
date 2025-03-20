@@ -390,10 +390,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(86)",
+                                        "es": "A(86)",
+                                        "fr": "A(86)",
+                                        "ko": "A(86)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -417,10 +417,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(82)",
+                                        "es": "A(82)",
+                                        "fr": "A(82)",
+                                        "ko": "A(82)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -444,10 +444,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(76)",
+                                        "es": "B(76)",
+                                        "fr": "B(76)",
+                                        "ko": "B(76)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -461,7 +461,8 @@
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -471,10 +472,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(80)",
+                                        "es": "A(80)",
+                                        "fr": "A(80)",
+                                        "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -498,10 +499,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(95)",
+                                        "es": "A(95)",
+                                        "fr": "A(95)",
+                                        "ko": "A(95)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -525,10 +526,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -552,10 +553,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(88)",
+                                        "es": "A(88)",
+                                        "fr": "A(88)",
+                                        "ko": "A(88)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -579,10 +580,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -606,10 +607,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -633,10 +634,10 @@
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(75)",
+                                        "es": "B(75)",
+                                        "fr": "B(75)",
+                                        "ko": "B(75)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -650,7 +651,8 @@
                                         "es": "Núcleo",
                                         "fr": "Noyau",
                                         "ko": "핵심"
-                                    }
+                                    },
+                                    "gpa":3
                                 }
                             ]
                         },
@@ -674,10 +676,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(96)",
+                                        "es": "A(96)",
+                                        "fr": "A(96)",
+                                        "ko": "A(96)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -701,10 +703,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(90)",
+                                        "es": "A(90)",
+                                        "fr": "A(90)",
+                                        "ko": "A(90)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -728,10 +730,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(90)",
+                                        "es": "A(90)",
+                                        "fr": "A(90)",
+                                        "ko": "A(90)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -755,10 +757,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(70)",
+                                        "es": "B(70)",
+                                        "fr": "B(70)",
+                                        "ko": "B(70)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -772,7 +774,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -782,10 +785,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(77)",
+                                        "es": "B(77)",
+                                        "fr": "B(77)",
+                                        "ko": "B(77)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -799,7 +802,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -809,10 +813,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(85)",
+                                        "es": "A(85)",
+                                        "fr": "A(85)",
+                                        "ko": "A(85)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -836,10 +840,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(87)",
+                                        "es": "A(87)",
+                                        "fr": "A(87)",
+                                        "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -863,10 +867,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "C",
-                                        "es": "C",
-                                        "fr": "C",
-                                        "ko": "C"
+                                        "en": "C(65)",
+                                        "es": "C(65)",
+                                        "fr": "C(65)",
+                                        "ko": "C(65)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -880,7 +884,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":2
                                 }
                             ]
                         },
@@ -904,10 +909,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(83)",
+                                        "es": "A(83)",
+                                        "fr": "A(83)",
+                                        "ko": "A(83)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -931,10 +936,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(80)",
+                                        "es": "A(80)",
+                                        "fr": "A(80)",
+                                        "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -958,10 +963,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(73)",
+                                        "es": "B(73)",
+                                        "fr": "B(73)",
+                                        "ko": "B(73)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -975,7 +980,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -985,10 +991,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(72)",
+                                        "es": "B(72)",
+                                        "fr": "B(72)",
+                                        "ko": "B(72)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -1012,10 +1018,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(87)",
+                                        "es": "A(87)",
+                                        "fr": "A(87)",
+                                        "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -1039,10 +1045,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(73)",
+                                        "es": "B(73)",
+                                        "fr": "B(73)",
+                                        "ko": "B(73)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -1056,7 +1062,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -1066,10 +1073,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B",
-                                        "es": "B",
-                                        "fr": "B",
-                                        "ko": "B"
+                                        "en": "B(71)",
+                                        "es": "B(71)",
+                                        "fr": "B(71)",
+                                        "ko": "B(71)"
                                     },
                                     "term": {
                                         "en": "Year",
@@ -1083,7 +1090,8 @@
                                         "es": "Optativa",
                                         "fr": "Optionnel",
                                         "ko": "선택 과목"
-                                    }
+                                    },
+                                    "gpa":3
                                 },
                                 {
                                     "course": {
@@ -1093,10 +1101,10 @@
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "A",
-                                        "es": "A",
-                                        "fr": "A",
-                                        "ko": "A"
+                                        "en": "A(80)",
+                                        "es": "A(80)",
+                                        "fr": "A(80)",
+                                        "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Semester",
@@ -1278,22 +1286,185 @@
                             "courses": [
                                 {
                                     "course": {
-                                        "en": "Software Engineering",
+                                        "en": "Intercultural Communication",
                                         "es": "Ingeniería de Software",
                                         "fr": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
-                                        "en": "B+",
-                                        "es": "B+",
-                                        "fr": "B+",
-                                        "ko": "B+"
+                                        "en": "A(80)",
+                                        "es": "A(80)",
+                                        "fr": "A(80)",
+                                        "ko": "A(80)"
                                     },
                                     "term": {
-                                        "en": "Half Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
-                                        "ko": "반 학기"
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Liberal Education",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Management Information Systems",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(82)",
+                                        "es": "A(82)",
+                                        "fr": "A(82)",
+                                        "ko": "A(82)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Engineering Mathematics-Linear Algebra",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "C(60)",
+                                        "es": "C(60)",
+                                        "fr": "C(60)",
+                                        "ko": "C(60)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    },
+                                    "gpa":2
+                                },
+                                {
+                                    "course": {
+                                        "en": "Information System Project (II)",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(98)",
+                                        "es": "A(98)",
+                                        "fr": "A(98)",
+                                        "ko": "A(98)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Philosophy of Life",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(85)",
+                                        "es": "A(85)",
+                                        "fr": "A(85)",
+                                        "ko": "A(85)"
+                                    },
+                                    "term": {
+                                        "en": "Year",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 2,
+                                    "category": {
+                                        "en": "Required",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Geo-Spatial Information Management",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(91)",
+                                        "es": "A(91)",
+                                        "fr": "A(91)",
+                                        "ko": "A(91)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
+                                    },
+                                    "credits": 3,
+                                    "category": {
+                                        "en": "Elective",
+                                        "es": "Optativa",
+                                        "fr": "Optionnel",
+                                        "ko": "선택 과목"
+                                    }
+                                },
+                                {
+                                    "course": {
+                                        "en": "Data Visualization and Applications",
+                                        "es": "Ingeniería de Software",
+                                        "fr": "Génie Logiciel",
+                                        "ko": "소프트웨어 공학"
+                                    },
+                                    "grade": {
+                                        "en": "A(89)",
+                                        "es": "A(89)",
+                                        "fr": "A(89)",
+                                        "ko": "A(89)"
+                                    },
+                                    "term": {
+                                        "en": "Semester",
+                                        "es": "Semestre",
+                                        "fr": "Semestre",
+                                        "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
