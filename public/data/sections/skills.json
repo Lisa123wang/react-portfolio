@@ -234,7 +234,25 @@
                             "info": null
                         }
                     }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-laravel",
+                        "faColors": {"bg": "#f55247", "fill": "#fff"}  
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "01/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Laravel",
+                            "info": null
+                        }
+                    }
                 }
+                
             ]
         },
 
