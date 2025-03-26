@@ -6,13 +6,13 @@
             "title_long": "**Work** Experience"
         },
 
-        "es": {
+        "zh": {
             "title": "Experiencia",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
         },
 
-        "fr": {
+        "he": {
             "title": "Expérience",
             "title_long_prefix": "Résumé de mon",
             "title_long": "Parcours **Professionel**"
@@ -50,13 +50,13 @@
                             "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
                             "tags": ["PHP", "MySQL", "Laravel"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Desarrollador **Backend**",
                             "info": "Sapphire Studio",
                             "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
                             "tags": null
                         },
-                        "fr": {
+                        "he": {
                             "title": "Développeur **Backend**",
                             "info": "Sapphire Studio",
                             "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
@@ -87,13 +87,13 @@
                             "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
                             "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Ingeniero **Full-Stack**",
                             "info": "Coursera",
                             "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
                             "tags": null
                         },
-                        "fr": {
+                        "he": {
                             "title": "Ingénieur **Full-Stack**",
                             "info": "Coursera",
                             "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
@@ -124,13 +124,13 @@
                             "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
                             "tags": ["Java", "AWS", "REST", "Docker"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Ingeniero **Backend**",
                             "info": "Adobe Inc.",
                             "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
                             "tags": null
                         },
-                        "fr": {
+                        "he": {
                             "title": "Ingénieur **Backend**",
                             "info": "Adobe Inc.",
                             "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
@@ -161,13 +161,13 @@
                             "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
                             "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Desarrollador **Backend Senior**",
                             "info": "Apple Inc.",
                             "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
                             "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Développeur **Backend Senior**",
                             "info": "Apple Inc.",
                             "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",

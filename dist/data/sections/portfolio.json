@@ -6,13 +6,13 @@
             "title_long": "My **Portfolio**"
         },
 
-        "es": {
+        "zh": {
             "title": "Portafolio",
             "title_long_prefix": "Explora",
             "title_long": "Mi **Portafolio**"
         },
 
-        "fr": {
+        "he": {
             "title": "Portfolio",
             "title_long_prefix": "Découvrez",
             "title_long": "Mon **Portfolio**"
@@ -37,8 +37,8 @@
                     "id": "apps",
                     "locales": {
                         "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
+                        "zh": {"singular": "App", "plural": "Apps"},
+                        "he": {"singular": "App", "plural": "Apps"},
                         "ko": {"singular": "앱", "plural": "앱들"}
                     }
                 },
@@ -46,8 +46,8 @@
                     "id": "websites",
                     "locales": {
                         "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "zh": {"singular": "Sitio web", "plural": "Web"},
+                        "he": {"singular": "Site web", "plural": "Web"},
                         "ko": {"singular": "웹사이트", "plural": "웹"}
                     }
                 },
@@ -55,8 +55,8 @@
                     "id": "utilities",
                     "locales": {
                         "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "zh": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "he": {"singular": "Utilitaire", "plural": "Utilitaires"},
                         "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
                     }
                 }
@@ -90,12 +90,12 @@
                             "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
                             "tags": ["API", "REST", "Backend"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "BrainPulse",
                             "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
                             "tags": ["API", "REST", "Backend"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "BrainPulse",
                             "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
                             "tags": ["API", "REST", "Backend"]
@@ -141,12 +141,12 @@
                             "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
                             "tags": ["Flutter", "E-mail", "Communication"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "MailM8",
                             "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
                             "tags": ["Flutter", "Correo", "Comunicación"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "MailM8",
                             "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
                             "tags": ["Flutter", "E-mail", "Communication"]
@@ -190,12 +190,12 @@
                             "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
                             "tags": ["React", "Organization", "Notes"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Stackers",
                             "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
                             "tags": ["React", "Organización", "Notas"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Stackers",
                             "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
                             "tags": ["React", "Organisation", "Notes"]
@@ -234,12 +234,12 @@
                             "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
                             "tags": ["Next.js", "Finance", "Money"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "SmartCash",
                             "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
                             "tags": ["Next.js", "Finanzas", "Dinero"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "SmartCash",
                             "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
                             "tags": ["Next.js", "Finance", "Argent"]
@@ -279,12 +279,12 @@
                             "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
                             "tags": ["Swift", "Photography", "Camera"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Snappy",
                             "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
                             "tags": ["Swift", "Fotografía", "Cámara"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Snappy",
                             "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
                             "tags": ["Swift", "Photographie", "Caméra"]
@@ -323,12 +323,12 @@
                             "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
                             "tags": ["WooCommerce", "Food", "Desserts"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Sweet Scoops",
                             "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
                             "tags": ["WooCommerce", "Comida", "Postres"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Sweet Scoops",
                             "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
                             "tags": ["WooCommerce", "Cuisine", "Desserts"]
@@ -367,12 +367,12 @@
                             "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
                             "tags": ["Django", "Music", "Rock"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "RockVerse",
                             "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
                             "tags": ["Django", "Música", "Rock"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "RockVerse",
                             "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
                             "tags": ["Django", "Musique", "Rock"]
@@ -410,12 +410,12 @@
                             "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
                             "tags": ["AI", "Prediction", "Soccer"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Soccer Analytics",
                             "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
                             "tags": ["IA", "Predicción", "Fútbol"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Soccer Analytics",
                             "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
                             "tags": ["IA", "Prédiction", "Football"]
@@ -456,12 +456,12 @@
                             "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
                             "tags": ["React Native", "Delivery", "Real-Time Tracking"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "QuickDrop",
                             "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
                             "tags": ["React Native", "Entrega", "Seguimiento"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "QuickDrop",
                             "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
                             "tags": ["React Native", "Livraison", "Suivi"]

@@ -7,14 +7,14 @@
             "title_long": "Career **Achievements**"
         },
 
-        "es": {
+        "zh": {
             "title": "Logros",
             "title_menu": "Logros",
             "title_long_prefix": "Aquí están mis",
             "title_long": "**Logros** Profesionales"
         },
 
-        "fr": {
+        "he": {
             "title": "Réalis",
             "title_menu": "Réalisations",
             "title_long_prefix": "Voici",
@@ -36,8 +36,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
+                "zh": { "title": "Certificaciones" },
+                "he": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
             },
 
@@ -60,10 +60,10 @@
                             "title": "The **Linux Foundation**",
                             "text": "Certified Kubernetes Administrator (CKA)"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Administrador Kubernetes Certificado (CKA)"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Administrateur Kubernetes Certifié (CKA)"
                         },
                         "ko": {
@@ -89,10 +89,10 @@
                             "title": "**Amazon** Web Services",
                             "text": "AWS Certified Solutions Architect – Associate"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Architecte de Solutions Certifié AWS – Associé"
                         },
                         "ko": {
@@ -118,10 +118,10 @@
                             "title": "**Oracle**",
                             "text": "Certified Java Developer"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Desarrollador Java Certificado"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Développeur Java Certifié"
                         },
                         "ko": {
@@ -147,10 +147,10 @@
                             "title": "**MongoDB** University",
                             "text": "MongoDB Certified Developer"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Desarrollador Certificado en MongoDB"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Développeur Certifié MongoDB"
                         },
                         "ko": {
@@ -167,8 +167,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
+                "zh": { "title": "Premios" },
+                "he": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
             },
 
@@ -185,12 +185,12 @@
                             "info": "MIT",
                             "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
                             "info": "MIT",
                             "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
                             "info": "MIT",
                             "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
@@ -216,12 +216,12 @@
                             "info": "GitHub",
                             "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Contribuidor Destacado** – Proyecto de Backend de Código Abierto",
                             "info": "GitHub",
                             "text": "Premiado por su contribución a un framework de backend de código abierto que mejoró la escalabilidad y redujo la latencia."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Meilleur Contributeur** – Projet Backend Open Source",
                             "info": "GitHub",
                             "text": "Récompensé pour sa contribution à un cadre backend open source qui a amélioré l'évolutivité et réduit la latence."
@@ -245,12 +245,12 @@
                             "info": "API Developer Conference",
                             "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
                         },
-                        "es": {
+                        "zh": {
                             "title": "**1er Lugar** – Desafío Global de Diseño de API",
                             "info": "Conferencia de Desarrolladores de API",
                             "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**1ère Place** – Défi Mondial de Conception d'API",
                             "info": "Conférence des Développeurs d'API",
                             "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données en temps réel et l'intégration transparente."
@@ -276,12 +276,12 @@
                             "info": "Tech Innovator Magazine",
                             "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Mejor Arquitectura de Backend** – Premios a los Innovadores Tecnológicos",
                             "info": "Revista Tech Innovator",
                             "text": "Reconocido por diseñar una arquitectura de backend eficiente y escalable que mejoró el rendimiento y la confiabilidad del sistema."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Meilleure Architecture Backend** – Prix de l'Innovateur Technologique",
                             "info": "Magazine Tech Innovator",
                             "text": "Reconnu pour avoir conçu une architecture backend efficace et évolutive qui a amélioré les performances et la fiabilité du système."

@@ -6,13 +6,13 @@
             "title_long": "My **Skill Set**"
         },
 
-        "es": {
+        "zh": {
             "title": "Habilidades",
             "title_long_prefix": "Explora",
             "title_long": "Mis **Habilidades**"
         },
 
-        "fr": {
+        "he": {
             "title": "Capacités",
             "title_long_prefix": "Explorez",
             "title_long": "Mes **Compétences**"
@@ -44,11 +44,11 @@
                             "title": "**Website** design",
                             "text": "I can bring your best ideas into life!"
                         },
-                        "es": {
+                        "zh": {
                             "title": "Diseño de **sitios web**",
                             "text": "¡Puedo hacer realidad tus mejores ideas!"
                         },
-                        "fr": {
+                        "he": {
                             "title": "Conception de **sites web**",
                             "text": "Je peux donner vie à vos meilleures idées !"
                         },
@@ -70,11 +70,11 @@
                             "title": "**Database** management",
                             "text": "I can handle your data effectively!"
                         },
-                        "es": {
+                        "zh": {
                             "title": "Gestión de **bases de datos**",
                             "text": "¡Puedo gestionar tus datos de manera eficaz!"
                         },
-                        "fr": {
+                        "he": {
                             "title": "Gestion de **bases de données**",
                             "text": "Je peux gérer vos données efficacement !"
                         },
@@ -97,11 +97,11 @@
                             "title": "REST **APIs**",
                             "text": "I can build API services!"
                         },
-                        "es": {
+                        "zh": {
                             "title": "APIs **REST**",
                             "text": "¡Puedo crear servicios API!"
                         },
-                        "fr": {
+                        "he": {
                             "title": "APIs **REST**",
                             "text": "Je peux créer des services API !"
                         },
@@ -123,11 +123,11 @@
                             "title": "**UI/ UX**",
                             "text": "I care about clarity and accessibility in design."
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Seguridad** de la información",
                             "text": "¡La seguridad es mi segundo nombre!"
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Sécurité** de l'information",
                             "text": "La sécurité est mon deuxième prénom !"
                         },
@@ -359,8 +359,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
+                "zh": { "title": "Idiomas" },
+                "he": { "title": "Langues" },
                 "ko": { "title": "언어" }
             },
 
@@ -379,12 +379,12 @@
                             "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
                             "tags": ["Intermediate"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Inglés",
                             "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
                             "tags": ["Nativo"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Anglais",
                             "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
                             "tags": ["Natif"]
@@ -411,12 +411,12 @@
                             "info": "Native speaker with excellent communication and writing skills.",
                             "tags": ["Native"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Vietnamita",
                             "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
                             "tags": ["Intermedio"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Vietnamien",
                             "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
                             "tags": ["Intermédiaire"]
@@ -443,12 +443,12 @@
                             "info": "Basic understanding of Hebrew; learning and improving.",
                             "tags": ["Basic"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Coreano",
                             "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
                             "tags": ["Básico"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Coréen",
                             "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
                             "tags": ["Basique"]

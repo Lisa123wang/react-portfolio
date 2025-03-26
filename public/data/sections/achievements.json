@@ -7,14 +7,14 @@
             "title_long": "**Achievements**"
         },
 
-        "es": {
+        "zh": {
             "title": "Logros",
             "title_menu": "Logros",
             "title_long_prefix": "Aquí están mis",
             "title_long": "**Logros** Profesionales"
         },
 
-        "fr": {
+        "he": {
             "title": "Réalis",
             "title_menu": "Réalisations",
             "title_long_prefix": "Voici",
@@ -36,8 +36,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
+                "zh": { "title": "Certificaciones" },
+                "he": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
             },
 
@@ -60,10 +60,10 @@
                             "title": "**Amazon** Web Services",
                             "text": "AWS Academy Graduate – AWS Academy Cloud Foundations"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Architecte de Solutions Certifié AWS – Associé"
                         },
                         "ko": {
@@ -80,8 +80,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards & Presentations" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
+                "zh": { "title": "Premios" },
+                "he": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
             },
 
@@ -101,12 +101,12 @@
                             "info": "",
                             "text": ""
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
                             "info": "MIT",
                             "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
                             "info": "MIT",
                             "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
@@ -133,12 +133,12 @@
                             "info": "",
                             "text": ""
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
                             "info": "MIT",
                             "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
                         },
-                        "fr": {
+                        "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
                             "info": "MIT",
                             "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."

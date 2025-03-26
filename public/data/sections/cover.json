@@ -7,14 +7,14 @@
             "title_long": "I'm **Ling Wong!**"
         },
 
-        "es": {
+        "zh": {
             "title": "¡Saludos!",
             "title_menu": "Sobre mí",
             "title_long_prefix": "Hola...",
             "title_long": "Soy **Ling Wong!**"
         },
 
-        "fr": {
+        "he": {
             "title": "Salut !",
             "title_menu": "À propos",
             "title_long_prefix": "Salut...",
@@ -39,8 +39,8 @@
             },
             "locales": {
                 "en": {},
-                "es": {},
-                "fr": {},
+                "zh": {},
+                "he": {},
                 "ko": {}
             },
 
@@ -77,8 +77,8 @@
             "config": {},
             "locales": {
                 "en": {"title": "**A little bit** about me..."},
-                "es": {"title": "**Un poco** sobre mí..."},
-                "fr": {"title": "**Un peu** à propos de moi..."},
+                "zh": {"title": "**Un poco** sobre mí..."},
+                "he": {"title": "**Un peu** à propos de moi..."},
                 "ko": {"title": "저에 **대해 조금**..."}
             },
 
@@ -91,8 +91,8 @@
                     },
                     "locales": {
                         "en": {"text": "<p>I am a reflective problem-solver who enjoys using <b>programming</b> to develop systems that enhance efficiency and convenience. I prioritize user needs and incorporate <b>UX design</b> to facilitate clear and effective communication. By integrating these skills, I create systems that not only meet requirements but also provide meaningful solutions to real-world challenge.</p>"},
-                        "es": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
-                        "fr": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
+                        "zh": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
+                        "he": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
                         "ko": {"text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
                     }
                 }
@@ -105,8 +105,8 @@
             "config": {},
             "locales": {
                 "en": {"title": "Client **testimonials**"},
-                "es": {"title": "Testimonios de **clientes**"},
-                "fr": {"title": "Témoignages de **clients**"},
+                "zh": {"title": "Testimonios de **clientes**"},
+                "he": {"title": "Témoignages de **clients**"},
                 "ko": {"title": "**고객** 추천사"}
             },
 
@@ -126,11 +126,11 @@
                             "info": "CEO at <b>SalesForce</b>",
                             "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
                         },
-                        "es": {
+                        "zh": {
                             "info": "CEO en <b>SalesForce</b>",
                             "text": "Trabajar con Mark fue una experiencia transformadora. Sus habilidades de programación y dedicación no solo mejoraron nuestro proyecto, sino que también inspiraron a todo el equipo."
                         },
-                        "fr": {
+                        "he": {
                             "info": "PDG de <b>SalesForce</b>",
                             "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
                         },
@@ -156,11 +156,11 @@
                             "info": "Lead Developer at <b>GitHub</b>",
                             "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
                         },
-                        "es": {
+                        "zh": {
                             "info": "Desarrollador Principal en <b>GitHub </b>",
                             "text": "Tener a Mark en nuestro equipo fue un activo invaluable. Sus profundas ideas sobre programación y su mentoría no solo elevaron nuestros proyectos, sino que también nos empoderaron para enfrentar cada desafío con confianza."
                         },
-                        "fr": {
+                        "he": {
                             "info": "Développeur Principal chez <b>GitHub </b>",
                             "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
                         },
@@ -186,11 +186,11 @@
                             "info": "Managing Director at <b>Dingga</b>",
                             "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
                         },
-                        "es": {
+                        "zh": {
                             "info": "Directora General en <b>Dingga</b>",
                             "text": "Colaborar con Mark fue un cambio de juego para nuestro proceso de desarrollo. Su experiencia y habilidades para resolver problemas fueron invaluables para nuestro éxito."
                         },
-                        "fr": {
+                        "he": {
                             "info": "Directrice Générale chez <b>Dingga</b>",
                             "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
                         },
@@ -216,11 +216,11 @@
                             "info": "Creative Director at <b>Dribbble</b>",
                             "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
                         },
-                        "es": {
+                        "zh": {
                             "info": "Directora Creativa en <b>Dribbble</b>",
                             "text": "La atención al detalle de Mark y su pensamiento innovador aportaron una nueva perspectiva a nuestro proceso de diseño. Realmente elevó el trabajo de nuestro equipo y nos ayudó a ofrecer resultados más allá de lo esperado."
                         },
-                        "fr": {
+                        "he": {
                             "info": "Directrice Créative chez <b>Dribbble</b>",
                             "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
                         },
@@ -241,8 +241,8 @@
             },
             "locales": {
                 "en": {"title": "Personal **interests**"},
-                "es": { "title": "Intereses **personales**" },
-                "fr": { "title": "Intérêts **personnels** " },
+                "zh": { "title": "Intereses **personales**" },
+                "he": { "title": "Intérêts **personnels** " },
                 "ko": { "title": "개인 **관심사**" }
             },
 
@@ -263,11 +263,11 @@
                             "title": "Illustration",
                             "info": "Practicing digital art and exploring new styles."
                         },
-                        "es": {
+                        "zh": {
                             "title": "Ilustración",
                             "info": "Practicando arte digital y explorando nuevos estilos."
                         },
-                        "fr": {
+                        "he": {
                             "title": "Illustration",
                             "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
                         },
@@ -290,11 +290,11 @@
                             "title": "Investing",
                             "info": "Learning the basics of stocks and personal finance."
                         },
-                        "es": {
+                        "zh": {
                             "title": "Invertir",
                             "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
                         },
-                        "fr": {
+                        "he": {
                             "title": "Investir",
                             "info": "Apprendre les bases des actions et des finances personnelles."
                         },
@@ -317,11 +317,11 @@
                             "title": "UX design",
                             "info": "Studying user experience principles."
                         },
-                        "es": {
+                        "zh": {
                             "title": "Diseño UX",
                             "info": "Estudiando los principios de la experiencia del usuario."
                         },
-                        "fr": {
+                        "he": {
                             "title": "Conception UX",
                             "info": "Étudier les principes de l'expérience utilisateur."
                         },
@@ -344,11 +344,11 @@
                             "title": "Hand craft",
                             "info": "Enhancing photos through creative editing techniques."
                         },
-                        "es": {
+                        "zh": {
                             "title": "Edición de fotos",
                             "info": "Mejorando fotos a través de técnicas creativas de edición."
                         },
-                        "fr": {
+                        "he": {
                             "title": "Retouche photo",
                             "info": "Améliorer des photos avec des techniques de montage créatives."
                         },

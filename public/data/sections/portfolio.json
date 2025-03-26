@@ -6,13 +6,13 @@
             "title_long": "My **Portfolio**"
         },
 
-        "es": {
+        "zh": {
             "title": "Portafolio",
             "title_long_prefix": "Explora",
             "title_long": "Mi **Portafolio**"
         },
 
-        "fr": {
+        "he": {
             "title": "Portfolio",
             "title_long_prefix": "Découvrez",
             "title_long": "Mon **Portfolio**"
@@ -37,8 +37,8 @@
                     "id": "apps",
                     "locales": {
                         "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
+                        "zh": {"singular": "App", "plural": "Apps"},
+                        "he": {"singular": "App", "plural": "Apps"},
                         "ko": {"singular": "앱", "plural": "앱들"}
                     }
                 },
@@ -46,8 +46,8 @@
                     "id": "websites",
                     "locales": {
                         "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "zh": {"singular": "Sitio web", "plural": "Web"},
+                        "he": {"singular": "Site web", "plural": "Web"},
                         "ko": {"singular": "웹사이트", "plural": "웹"}
                     }
                 },
@@ -55,8 +55,8 @@
                     "id": "extensions",
                     "locales": {
                         "en": {"singular": "Chrome-extension", "plural": "Chrome-extensions"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "zh": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "he": {"singular": "Utilitaire", "plural": "Utilitaires"},
                         "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
                     }
                 }
@@ -89,12 +89,12 @@
                             "text": "An <b>AI-powered assistive learning tool</b> designed for the <b>visually impaired</b>, featuring image recognition and real-time Q&A capabilities. The system aims to make YouTube learning resources accessible for visually impaired users, promoting equal learning opportunities.",
                             "tags": ["API", "NVDA", "Backend","AI"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "BrainPulse",
                             "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
                             "tags": ["API", "REST", "Backend"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "BrainPulse",
                             "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
                             "tags": ["API", "REST", "Backend"]
@@ -133,12 +133,12 @@
                             "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
                             "tags": ["Swift", "Photography", "Camera"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Snappy",
                             "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
                             "tags": ["Swift", "Fotografía", "Cámara"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "Snappy",
                             "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
                             "tags": ["Swift", "Photographie", "Caméra"]
@@ -176,12 +176,12 @@
                             "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
                             "tags": ["Django", "Music", "Rock"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "RockVerse",
                             "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
                             "tags": ["Django", "Música", "Rock"]
                         },
-                        "fr": {
+                        "he": {
                             "title": "RockVerse",
                             "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
                             "tags": ["Django", "Musique", "Rock"]

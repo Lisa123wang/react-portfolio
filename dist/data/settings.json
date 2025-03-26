@@ -17,8 +17,8 @@
 
         "locales": {
             "en": {"role": "Web Developer"},
-            "es": {"role": "Desarrollador Web"},
-            "fr": {"role": "Développeur Web"},
+            "zh": {"role": "Desarrollador Web"},
+            "he": {"role": "Développeur Web"},
             "ko": {"role": "웹 개발자"}
         }
     },
@@ -29,8 +29,8 @@
 
         "locales": {
             "en": {"message": "Available for freelance!"},
-            "es": {"message": "¡Disponible para freelance!"},
-            "fr": {"message": "Disponible pour freelance !"},
+            "zh": {"message": "¡Disponible para freelance!"},
+            "he": {"message": "Disponible pour freelance !"},
             "ko": {"message": "프리랜스 가능합니다!"}
         }
     },
@@ -59,13 +59,13 @@
 
         {
             "name": "Español",
-            "id": "es",
+            "id": "zh",
             "flagUrl": "images/flags/es.png"
         },
 
         {
             "name": "Français",
-            "id": "fr",
+            "id": "he",
             "flagUrl": "images/flags/fr.png"
         },
 
