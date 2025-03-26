@@ -72,8 +72,7 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://chromewebstore.google.com/detail/imagenarrator/nadncelhagcahmjnnneemfillngbjeef?authuser=0&hl=zh-TW"}
                     ],
 
                     "media": {
