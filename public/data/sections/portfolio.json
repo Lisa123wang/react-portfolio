@@ -77,7 +77,7 @@
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=NTQbICMDkjk",
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -86,9 +86,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
+                            "title": "ImageNarrator",
+                            "text": "An <b>AI-powered assistive learning tool</b> designed for the <b>visually impaired</b>, featuring image recognition and real-time Q&A capabilities. The system aims to make YouTube learning resources accessible for visually impaired users, promoting equal learning opportunities.",
+                            "tags": ["API", "NVDA", "Backend","AI"]
                         },
                         "es": {
                             "title": "BrainPulse",

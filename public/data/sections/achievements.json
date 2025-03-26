@@ -4,7 +4,7 @@
             "title": "Awards",
             "title_menu": "Achievements",
             "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
+            "title_long": "**Achievements**"
         },
 
         "es": {
@@ -79,7 +79,7 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Awards" },
+                "en": { "title": "Awards & Presentations" },
                 "es": { "title": "Premios" },
                 "fr": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
@@ -98,7 +98,39 @@
                     "locales": {
                         "en": {
                             "title": "**International ICT Innovative Services Awards 2024** – Excellent Work ",
-                            "info": "IP3/ LaborOD",
+                            "info": "",
+                            "text": ""
+                        },
+                        "es": {
+                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
+                            "info": "MIT",
+                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                        },
+                        "fr": {
+                            "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
+                            "info": "MIT",
+                            "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
+                        },
+                        "ko": {
+                            "title": "**최우수 졸업 프로젝트** – 백엔드 최적화",
+                            "info": "MIT",
+                            "text": "클라우드 환경에서 백엔드 시스템을 최적화한 혁신적인 작업으로 성능을 크게 개선한 것으로 인정받았습니다."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "10/16/2024",
+                        "end": "10/24/2024"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1erVyml-QbUUKTuvzl4j-n2UUEjwq8cOq/view?usp=sharing" }
+                    ],
+                    
+                    "locales": {
+                        "en": {
+                            "title": "**CNIB Connecting the Dots Conference** (Canadian National Institute of the Blind) ",
+                            "info": "",
                             "text": ""
                         },
                         "es": {
