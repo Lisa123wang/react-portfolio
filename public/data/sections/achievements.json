@@ -49,16 +49,16 @@
                         "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
                     "dates": {
-                        "start": "05/05/2021",
+                        "start": "01/09/2023",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
+                        { "string": "see_certification", "href": "https://www.credly.com/badges/4fc90cb1-54a8-4b51-85ac-0add878c476a/print" }
                     ],
                     "locales": {
                         "en": {
                             "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
+                            "text": "AWS Academy Graduate – AWS Academy Cloud Foundations"
                         },
                         "es": {
                             "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
@@ -88,15 +88,18 @@
             "items": [
                 {
                     "dates": {
-                        "start": "09/01/2019",
+                        "start": "11/02/2024",
                         "end": null
                     },
-                    "links": [],
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/drive/folders/1496b0lNB3LAAE6dJqgf-hPUSl3lzOHLc?usp=drive_link" }
+                    ],
+                    
                     "locales": {
                         "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                            "title": "**International ICT Innovative Services Awards 2024** – Excellent Work ",
+                            "info": "IP3/ LaborOD",
+                            "text": ""
                         },
                         "es": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",

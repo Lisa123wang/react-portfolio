@@ -4,28 +4,28 @@
             "title": "Welcome!",
             "title_menu": "About me",
             "title_long_prefix": "Hello...",
-            "title_long": "I'm **Lisa Wong!**"
+            "title_long": "I'm **Ling Wong!**"
         },
 
         "es": {
             "title": "¡Saludos!",
             "title_menu": "Sobre mí",
             "title_long_prefix": "Hola...",
-            "title_long": "Soy **Lisa Wong!**"
+            "title_long": "Soy **Ling Wong!**"
         },
 
         "fr": {
             "title": "Salut !",
             "title_menu": "À propos",
             "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Lisa Wong!**"
+            "title_long": "Je suis **Ling Wong!**"
         },
 
         "ko": {
             "title": "환영합니다!",
             "title_menu": "소개",
             "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Lisa Wong** 입니다!"
+            "title_long": "저는 **Ling Wong** 입니다!"
         }
     },
 
