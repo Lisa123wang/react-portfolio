@@ -243,7 +243,7 @@ Open `vite.config.js` and set the base directory for your application. This sett
 
 ```js
 export default defineConfig({
-  base: '/react-portfolio-template/',
+  base: '/',
   plugins: [react()],
 })
 ```

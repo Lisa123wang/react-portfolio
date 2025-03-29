@@ -5,8 +5,8 @@
 
     "preloader": {
         "enabled": true,
-        "title": "React <b>Portfolio</b>"
-        // "subtitle": "by Ryan Balieiro"
+        "title": "React <b>Portfolio</b>",
+        "subtitle": "by Ryan Balieiro"
     },
 
     "profile": {
@@ -24,8 +24,8 @@
     },
 
     "status": {
-        "visible": true,
-        "available": true,
+        "visible": false,
+        "available": false,
 
         "locales": {
             "en": {"message": "Available for freelance!"},
@@ -58,21 +58,15 @@
         },
 
         {
-            "name": "Español",
+            "name": "Mandarin",
             "id": "es",
-            "flagUrl": "images/flags/es.png"
+            "flagUrl": "images/flags/tw.png"
         },
 
         {
-            "name": "Français",
+            "name": "Hebrew",
             "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
+            "flagUrl": "images/flags/isr.png"
         }
     ],
 

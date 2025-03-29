@@ -55,9 +55,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+886 968 589 699",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:886968589699"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "wengling375@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:wengling375@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +89,9 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@lisawong",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/lisawong-3ab487276"}
                     ],
                     "icon": {
                         "img": null,
@@ -104,24 +104,9 @@
                 },
 
                 {
-                    "value": "Lisa Wong",
+                    "value": "@lisawong",
                     "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://instagram.com"}
+                        {"href": "https://www.instagram.com/wengling375?igsh=OHVtZnBwcW1xZGpu"}
                     ],
                     "icon": {
                         "img": null,
@@ -131,22 +116,8 @@
                     "locales": {
                         "en": {"title": "Instagram"}
                     }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
-                    }
                 }
+
             ]
         }
     ]
