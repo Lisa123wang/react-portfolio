@@ -6,13 +6,13 @@
             "title_long": "**Work** Experience"
         },
 
-        "es": {
+        "zh": {
             "title": "Experiencia",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
         },
 
-        "fr": {
+        "he": {
             "title": "Expérience",
             "title_long_prefix": "Résumé de mon",
             "title_long": "Parcours **Professionel**"
@@ -50,13 +50,13 @@
                             "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.Full-stack development and management, encompassing UX design, Laravel development and testing.",
                             "tags": ["PHP", "MySQL", "Laravel"]
                         },
-                        "es": {
+                        "zh": {
                             "title": "Desarrollador **Backend**",
                             "info": "Sapphire Studio",
                             "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
                             "tags": null
                         },
-                        "fr": {
+                        "he": {
                             "title": "Développeur **Backend**",
                             "info": "Sapphire Studio",
                             "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",

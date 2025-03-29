@@ -6,13 +6,13 @@
             "title_long": "**Contact** Me"
         },
 
-        "es": {
+        "zh": {
             "title": "Contacto",
             "title_long_prefix": "No dudes en",
             "title_long": "**Contácta**me"
         },
 
-        "fr": {
+        "he": {
             "title": "Contact",
             "title_long_prefix": "N'hésitez pas à",
             "title_long": "Me **Contacter**"
@@ -32,8 +32,8 @@
             "config": {},
             "locales": {
                 "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
-                "fr": {"title": "Envoyez-moi un **message**"},
+                "zh": {"title": "Envíame un **mensaje**"},
+                "he": {"title": "Envoyez-moi un **message**"},
                 "ko": {"title": "**메시지를** 보내주세요"}
             },
 
@@ -48,16 +48,16 @@
             },
             "locales": {
                 "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
-                "fr": {"title": "Ou si vous **préférez**..."},
+                "zh": {"title": "O si **prefieres**..."},
+                "he": {"title": "Ou si vous **préférez**..."},
                 "ko": {"title": "또는 **원하시면**..."}
             },
 
             "items": [
                 {
-                    "value": "+886 968 589 699",
+                    "value": "+1 (123) 456-7890",
                     "links": [
-                        {"href": "tel:886968589699"}
+                        {"href": "tel:11234567890"}
                     ],
                     "icon": {
                         "img": null,
@@ -66,16 +66,16 @@
                     },
                     "locales": {
                         "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
-                        "fr": {"title": "Téléphone"},
+                        "zh": {"title": "Teléfono"},
+                        "he": {"title": "Téléphone"},
                         "ko": {"title": "전화"}
                     }
                 },
 
                 {
-                    "value": "wengling375@gmail.com",
+                    "value": "mark.choi@email.com",
                     "links": [
-                        {"href": "mailto:wengling375@gmail.com"}
+                        {"href": "mailto:mark.choi@email.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,9 +89,9 @@
                 },
 
                 {
-                    "value": "@lisawong",
+                    "value": "@markchoi",
                     "links": [
-                        {"href": "https://www.linkedin.com/in/lisawong-3ab487276"}
+                        {"href": "https://linkedin.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -104,9 +104,24 @@
                 },
 
                 {
-                    "value": "@lisawong",
+                    "value": "Ling Wong",
                     "links": [
-                        {"href": "https://www.instagram.com/wengling375?igsh=OHVtZnBwcW1xZGpu"}
+                        {"href": "https://facebook.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"}
+                    }
+                },
+
+                {
+                    "value": "@markchoi",
+                    "links": [
+                        {"href": "https://instagram.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -116,8 +131,22 @@
                     "locales": {
                         "en": {"title": "Instagram"}
                     }
-                }
+                },
 
+                {
+                    "value": "@markchoi",
+                    "links": [
+                        {"href": "https://tiktok.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-tiktok",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "TikTok"}
+                    }
+                }
             ]
         }
     ]

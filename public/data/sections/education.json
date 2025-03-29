@@ -5,13 +5,13 @@
             "title_long_prefix": "This is my",
             "title_long": "**Educational** Background"
         },
-        "es": {
-            "title": "Educación",
+        "zh": {
+            "title": "教育背景",
             "title_long_prefix": "Esta es mi",
             "title_long": "**Formación** Educativa"
         },
-        "fr": {
-            "title": "Éducation",
+        "he": {
+            "title": "חינוך",
             "title_long_prefix": "C'est mon",
             "title_long": "**Contexte** Éducatif"
         },
@@ -36,7 +36,7 @@
                     "credits": "Credits",
                     "category": "Category"
                 },
-                "es": {
+                "zh": {
                     "course": "Curso",
                     "grade": "Calificación",
                     "semester": "Semestre",
@@ -45,7 +45,7 @@
                     "credits": "Créditos",
                     "category": "Categoría"
                 },
-                "fr": {
+                "he": {
                     "course": "Cours",
                     "grade": "Note",
                     "semester": "Semestre",
@@ -87,8 +87,8 @@
                         {
                             "semester": {
                                 "en": "Fall 2021",
-                                "es": "Otoño 2021",
-                                "fr": "Automne 2021",
+                                "zh": "Otoño 2021",
+                                "he": "Automne 2021",
                                 "ko": "2021년 가을"
                             },
                             "totalCredits": 20,
@@ -99,54 +99,54 @@
                                 {
                                     "course": {
                                         "en": "Python Program Design",
-                                        "es": "Algoritmos",
-                                        "fr": "Algorithmes",
+                                        "zh": "Algoritmos",
+                                        "he": "Algorithmes",
                                         "ko": "알고리즘"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Introduction to Programming",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "C(65)",
-                                        "es": "C(65)",
-                                        "fr": "C(65)",
+                                        "zh": "C(65)",
+                                        "he": "C(65)",
                                         "ko": "C(65)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     },
                                     "gpa":2
@@ -154,108 +154,108 @@
                                 {
                                     "course": {
                                         "en": "Accounting",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(81)",
-                                        "es": "A(81)",
-                                        "fr": "A(81)",
+                                        "zh": "A(81)",
+                                        "he": "A(81)",
                                         "ko": "A(81)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Introduction to University Studies",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(87)",
-                                        "es": "A(87)",
-                                        "fr": "A(87)",
+                                        "zh": "A(87)",
+                                        "he": "A(87)",
                                         "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Physical Education",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(88)",
-                                        "es": "A(88)",
-                                        "fr": "A(88)",
+                                        "zh": "A(88)",
+                                        "he": "A(88)",
                                         "ko": "A(88)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Calculus",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "B(78)",
-                                        "es": "B(78)",
-                                        "fr": "B(78)",
+                                        "zh": "B(78)",
+                                        "he": "B(78)",
                                         "ko": "B(78)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     },
                                     "gpa":3
@@ -263,108 +263,108 @@
                                 {
                                     "course": {
                                         "en": "Introduction to Business",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(82)",
-                                        "es": "A(82)",
-                                        "fr": "A(82)",
+                                        "zh": "A(82)",
+                                        "he": "A(82)",
                                         "ko": "A(82)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "All-out Defense Education Military Training",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Chinese",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(87)",
-                                        "es": "A(87)",
-                                        "fr": "A(87)",
+                                        "zh": "A(87)",
+                                        "he": "A(87)",
                                         "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Foreign Language(Intermediate Level English)",
-                                        "es": "Sistemas de Bases de Datos",
-                                        "fr": "Systèmes de Bases de Données",
+                                        "zh": "Sistemas de Bases de Datos",
+                                        "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
                                     "grade": {
                                         "en": "A(91)",
-                                        "es": "A(91)",
-                                        "fr": "A(91)",
+                                        "zh": "A(91)",
+                                        "he": "A(91)",
                                         "ko": "A(91)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 }
@@ -373,8 +373,8 @@
                         {
                             "semester": {
                                 "en": "Spring 2022",
-                                "es": "Primavera 2022",
-                                "fr": "Printemps 2022",
+                                "zh": "Primavera 2022",
+                                "he": "Printemps 2022",
                                 "ko": "2022년 봄"
                             },
                             "totalCredits": 19,
@@ -385,81 +385,81 @@
                                 {
                                     "course": {
                                         "en": "The age of the Renaissance",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(86)",
-                                        "es": "A(86)",
-                                        "fr": "A(86)",
+                                        "zh": "A(86)",
+                                        "he": "A(86)",
                                         "ko": "A(86)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Mobil Application Programming",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(82)",
-                                        "es": "A(82)",
-                                        "fr": "A(82)",
+                                        "zh": "A(82)",
+                                        "he": "A(82)",
                                         "ko": "A(82)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Front-end Web Design",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "B(76)",
-                                        "es": "B(76)",
-                                        "fr": "B(76)",
+                                        "zh": "B(76)",
+                                        "he": "B(76)",
                                         "ko": "B(76)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     },
                                     "gpa":3
@@ -467,189 +467,189 @@
                                 {
                                     "course": {
                                         "en": "Accounting",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(80)",
-                                        "es": "A(80)",
-                                        "fr": "A(80)",
+                                        "zh": "A(80)",
+                                        "he": "A(80)",
                                         "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits":3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Physical Education",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(95)",
-                                        "es": "A(95)",
-                                        "fr": "A(95)",
+                                        "zh": "A(95)",
+                                        "he": "A(95)",
                                         "ko": "A(95)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Foreign Language(Intermediate Level English)",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Chinese",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(88)",
-                                        "es": "A(88)",
-                                        "fr": "A(88)",
+                                        "zh": "A(88)",
+                                        "he": "A(88)",
                                         "ko": "A(88)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "All-out Defense Education Military Training",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Calculus",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Advanced Programming Techniques",
-                                        "es": "Estructuras de Datos",
-                                        "fr": "Structures de Données",
+                                        "zh": "Estructuras de Datos",
+                                        "he": "Structures de Données",
                                         "ko": "데이터 구조"
                                     },
                                     "grade": {
                                         "en": "B(75)",
-                                        "es": "B(75)",
-                                        "fr": "B(75)",
+                                        "zh": "B(75)",
+                                        "he": "B(75)",
                                         "ko": "B(75)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre Completo",
-                                        "fr": "Semestre Complet",
+                                        "zh": "Semestre Completo",
+                                        "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Núcleo",
-                                        "fr": "Noyau",
+                                        "zh": "Núcleo",
+                                        "he": "Noyau",
                                         "ko": "핵심"
                                     },
                                     "gpa":3
@@ -659,8 +659,8 @@
                         {
                             "semester": {
                                 "en": "Fall 2022",
-                                "es": "Otoño 2022",
-                                "fr": "Automne 2022",
+                                "zh": "Otoño 2022",
+                                "he": "Automne 2022",
                                 "ko": "2022년 가을"
                             },
                             "totalCredits": 19,
@@ -671,108 +671,108 @@
                                 {
                                     "course": {
                                         "en": "Statistics",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(96)",
-                                        "es": "A(96)",
-                                        "fr": "A(96)",
+                                        "zh": "A(96)",
+                                        "he": "A(96)",
                                         "ko": "A(96)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Economics",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(90)",
-                                        "es": "A(90)",
-                                        "fr": "A(90)",
+                                        "zh": "A(90)",
+                                        "he": "A(90)",
                                         "ko": "A(90)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Figure & Shape",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(90)",
-                                        "es": "A(90)",
-                                        "fr": "A(90)",
+                                        "zh": "A(90)",
+                                        "he": "A(90)",
                                         "ko": "A(90)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Database Administration",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(70)",
-                                        "es": "B(70)",
-                                        "fr": "B(70)",
+                                        "zh": "B(70)",
+                                        "he": "B(70)",
                                         "ko": "B(70)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -780,27 +780,27 @@
                                 {
                                     "course": {
                                         "en": "WEB Programming",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(77)",
-                                        "es": "B(77)",
-                                        "fr": "B(77)",
+                                        "zh": "B(77)",
+                                        "he": "B(77)",
                                         "ko": "B(77)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -808,81 +808,81 @@
                                 {
                                     "course": {
                                         "en": "Innovation and Design Thinking",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(85)",
-                                        "es": "A(85)",
-                                        "fr": "A(85)",
+                                        "zh": "A(85)",
+                                        "he": "A(85)",
                                         "ko": "A(85)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Advanced Reading Popular English Novels",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(87)",
-                                        "es": "A(87)",
-                                        "fr": "A(87)",
+                                        "zh": "A(87)",
+                                        "he": "A(87)",
                                         "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Introduction to Cloud Application Platform",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "C(65)",
-                                        "es": "C(65)",
-                                        "fr": "C(65)",
+                                        "zh": "C(65)",
+                                        "he": "C(65)",
                                         "ko": "C(65)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":2
@@ -892,8 +892,8 @@
                         {
                             "semester": {
                                 "en": "Spring 2023",
-                                "es": "Otoño 2023",
-                                "fr": "Automne 2023",
+                                "zh": "Otoño 2023",
+                                "he": "Automne 2023",
                                 "ko": "2023년 가을"
                             },
                             "totalCredits": 20,
@@ -904,81 +904,81 @@
                                 {
                                     "course": {
                                         "en": "Basic English Conversation",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(83)",
-                                        "es": "A(83)",
-                                        "fr": "A(83)",
+                                        "zh": "A(83)",
+                                        "he": "A(83)",
                                         "ko": "A(83)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Tae kwon Do",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(80)",
-                                        "es": "A(80)",
-                                        "fr": "A(80)",
+                                        "zh": "A(80)",
+                                        "he": "A(80)",
                                         "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 0,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Data Structures",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(73)",
-                                        "es": "B(73)",
-                                        "fr": "B(73)",
+                                        "zh": "B(73)",
+                                        "he": "B(73)",
                                         "ko": "B(73)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -986,81 +986,81 @@
                                 {
                                     "course": {
                                         "en": "Data Communication and Network",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(72)",
-                                        "es": "B(72)",
-                                        "fr": "B(72)",
+                                        "zh": "B(72)",
+                                        "he": "B(72)",
                                         "ko": "B(72)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "System Analysis and Design",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(87)",
-                                        "es": "A(87)",
-                                        "fr": "A(87)",
+                                        "zh": "A(87)",
+                                        "he": "A(87)",
                                         "ko": "A(87)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Economics",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(73)",
-                                        "es": "B(73)",
-                                        "fr": "B(73)",
+                                        "zh": "B(73)",
+                                        "he": "B(73)",
                                         "ko": "B(73)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -1068,27 +1068,27 @@
                                 {
                                     "course": {
                                         "en": "Statistics",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(71)",
-                                        "es": "B(71)",
-                                        "fr": "B(71)",
+                                        "zh": "B(71)",
+                                        "he": "B(71)",
                                         "ko": "B(71)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -1096,27 +1096,27 @@
                                 {
                                     "course": {
                                         "en": "Cloud Application Programming",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(80)",
-                                        "es": "A(80)",
-                                        "fr": "A(80)",
+                                        "zh": "A(80)",
+                                        "he": "A(80)",
                                         "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 }
@@ -1125,8 +1125,8 @@
                         {
                             "semester": {
                                 "en": "Fall 2023",
-                                "es": "Otoño 2023",
-                                "fr": "Automne 2023",
+                                "zh": "Otoño 2023",
+                                "he": "Automne 2023",
                                 "ko": "2023년 가을"
                             },
                             "totalCredits": 13,
@@ -1137,81 +1137,81 @@
                                 {
                                     "course": {
                                         "en": "Philosophy of Life",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Information System Project (I)",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(90)",
-                                        "es": "A(90)",
-                                        "fr": "A(90)",
+                                        "zh": "A(90)",
+                                        "he": "A(90)",
                                         "ko": "A(90)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Operating System",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B(78)",
-                                        "es": "B(78)",
-                                        "fr": "B(78)",
+                                        "zh": "B(78)",
+                                        "he": "B(78)",
                                         "ko": "B(78)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":3
@@ -1219,54 +1219,54 @@
                                 {
                                     "course": {
                                         "en": "Interactive Program Logic Design",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(94)",
-                                        "es": "A(94)",
-                                        "fr": "A(94)",
+                                        "zh": "A(94)",
+                                        "he": "A(94)",
                                         "ko": "A(94)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Financial Management",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(85)",
-                                        "es": "A(85)",
-                                        "fr": "A(85)",
+                                        "zh": "A(85)",
+                                        "he": "A(85)",
                                         "ko": "A(85)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 }
@@ -1275,8 +1275,8 @@
                         {
                             "semester": {
                                 "en": "Spring 2024",
-                                "es": "Otoño 2024",
-                                "fr": "Automne 2024",
+                                "zh": "Otoño 2024",
+                                "he": "Automne 2024",
                                 "ko": "2024년 가을"
                             },
                             "totalCredits": 19,
@@ -1287,81 +1287,81 @@
                                 {
                                     "course": {
                                         "en": "Intercultural Communication",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(80)",
-                                        "es": "A(80)",
-                                        "fr": "A(80)",
+                                        "zh": "A(80)",
+                                        "he": "A(80)",
                                         "ko": "A(80)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Management Information Systems",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(82)",
-                                        "es": "A(82)",
-                                        "fr": "A(82)",
+                                        "zh": "A(82)",
+                                        "he": "A(82)",
                                         "ko": "A(82)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Engineering Mathematics-Linear Algebra",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "C(60)",
-                                        "es": "C(60)",
-                                        "fr": "C(60)",
+                                        "zh": "C(60)",
+                                        "he": "C(60)",
                                         "ko": "C(60)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     },
                                     "gpa":2
@@ -1369,108 +1369,108 @@
                                 {
                                     "course": {
                                         "en": "Information System Project (II)",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(98)",
-                                        "es": "A(98)",
-                                        "fr": "A(98)",
+                                        "zh": "A(98)",
+                                        "he": "A(98)",
                                         "ko": "A(98)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Philosophy of Life",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(85)",
-                                        "es": "A(85)",
-                                        "fr": "A(85)",
+                                        "zh": "A(85)",
+                                        "he": "A(85)",
                                         "ko": "A(85)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Geo-Spatial Information Management",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(91)",
-                                        "es": "A(91)",
-                                        "fr": "A(91)",
+                                        "zh": "A(91)",
+                                        "he": "A(91)",
                                         "ko": "A(91)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Data Visualization and Applications",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(89)",
-                                        "es": "A(89)",
-                                        "fr": "A(89)",
+                                        "zh": "A(89)",
+                                        "he": "A(89)",
                                         "ko": "A(89)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Semestre",
-                                        "fr": "Semestre",
+                                        "zh": "Semestre",
+                                        "he": "Semestre",
                                         "ko": "학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 }
@@ -1479,8 +1479,8 @@
                         {
                             "semester": {
                                 "en": "Fall 2024",
-                                "es": "Otoño 2024",
-                                "fr": "Automne 2024",
+                                "zh": "Otoño 2024",
+                                "he": "Automne 2024",
                                 "ko": "2024년 가을"
                             },
                             "totalCredits": 13,
@@ -1491,135 +1491,135 @@
                                 {
                                     "course": {
                                         "en": "Interior Design and Furniture appreciation",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(81)",
-                                        "es": "A(81)",
-                                        "fr": "A(81)",
+                                        "zh": "A(81)",
+                                        "he": "A(81)",
                                         "ko": "A(81)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Perspective Rendering Techniques",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(88)",
-                                        "es": "A(88)",
-                                        "fr": "A(88)",
+                                        "zh": "A(88)",
+                                        "he": "A(88)",
                                         "ko": "A(88)"
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "C Language",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(84)",
-                                        "es": "A(84)",
-                                        "fr": "A(84)",
+                                        "zh": "A(84)",
+                                        "he": "A(84)",
                                         "ko": "A(84)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Industry Practices in Artificial Intelligence",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(92)",
-                                        "es": "A(92)",
-                                        "fr": "A(92)",
+                                        "zh": "A(92)",
+                                        "he": "A(92)",
                                         "ko": "A(92)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 },
                                 {
                                     "course": {
                                         "en": "Computer Graphics",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "A(92)",
-                                        "es": "A(92)",
-                                        "fr": "A(92)",
+                                        "zh": "A(92)",
+                                        "he": "A(92)",
                                         "ko": "A(92)"
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 }
@@ -1628,35 +1628,35 @@
                         {
                             "semester": {
                                 "en": "Spring 2025",
-                                "es": "Otoño 2025",
-                                "fr": "Automne 2025",
+                                "zh": "Otoño 2025",
+                                "he": "Automne 2025",
                                 "ko": "2025년 가을"
                             },
                             "courses": [
                                 {
                                     "course": {
                                         "en": "Software Engineering",
-                                        "es": "Ingeniería de Software",
-                                        "fr": "Génie Logiciel",
+                                        "zh": "Ingeniería de Software",
+                                        "he": "Génie Logiciel",
                                         "ko": "소프트웨어 공학"
                                     },
                                     "grade": {
                                         "en": "B+",
-                                        "es": "B+",
-                                        "fr": "B+",
+                                        "zh": "B+",
+                                        "he": "B+",
                                         "ko": "B+"
                                     },
                                     "term": {
                                         "en": "Half Semester",
-                                        "es": "Medio Semestre",
-                                        "fr": "Demi-Semestre",
+                                        "zh": "Medio Semestre",
+                                        "he": "Demi-Semestre",
                                         "ko": "반 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Elective",
-                                        "es": "Optativa",
-                                        "fr": "Optionnel",
+                                        "zh": "Optativa",
+                                        "he": "Optionnel",
                                         "ko": "선택 과목"
                                     }
                                 }

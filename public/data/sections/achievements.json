@@ -4,17 +4,17 @@
             "title": "Awards",
             "title_menu": "Achievements",
             "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
+            "title_long": "**Achievements**"
         },
 
-        "es": {
+        "zh": {
             "title": "Logros",
             "title_menu": "Logros",
             "title_long_prefix": "Aquí están mis",
             "title_long": "**Logros** Profesionales"
         },
 
-        "fr": {
+        "he": {
             "title": "Réalis",
             "title_menu": "Réalisations",
             "title_long_prefix": "Voici",
@@ -36,8 +36,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
+                "zh": { "title": "Certificaciones" },
+                "he": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
             },
 
@@ -49,21 +49,21 @@
                         "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
                     "dates": {
-                        "start": "05/05/2021",
+                        "start": "01/09/2023",
                         "end": null
                     },
                     "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
+                        { "string": "see_certification", "href": "https://www.credly.com/badges/4fc90cb1-54a8-4b51-85ac-0add878c476a/print" }
                     ],
                     "locales": {
                         "en": {
                             "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
+                            "text": "AWS Academy Graduate – AWS Academy Cloud Foundations"
                         },
-                        "es": {
+                        "zh": {
                             "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
                         },
-                        "fr": {
+                        "he": {
                             "text": "Architecte de Solutions Certifié AWS – Associé"
                         },
                         "ko": {
@@ -79,31 +79,66 @@
             "component": "ArticleThread",
             "config": {},
             "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
+                "en": { "title": "Awards & Presentations" },
+                "zh": { "title": "Premios" },
+                "he": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
             },
 
             "items": [
                 {
                     "dates": {
-                        "start": "09/01/2019",
+                        "start": "11/02/2024",
                         "end": null
                     },
-                    "links": [],
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/drive/folders/1496b0lNB3LAAE6dJqgf-hPUSl3lzOHLc?usp=drive_link" }
+                    ],
+                    
                     "locales": {
                         "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                            "title": "**International ICT Innovative Services Awards 2024** – Excellent Work ",
+                            "info": "",
+                            "text": ""
                         },
-                        "es": {
+                        "zh": {
                             "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
                             "info": "MIT",
                             "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
                         },
-                        "fr": {
+                        "he": {
+                            "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
+                            "info": "MIT",
+                            "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
+                        },
+                        "ko": {
+                            "title": "**최우수 졸업 프로젝트** – 백엔드 최적화",
+                            "info": "MIT",
+                            "text": "클라우드 환경에서 백엔드 시스템을 최적화한 혁신적인 작업으로 성능을 크게 개선한 것으로 인정받았습니다."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "10/16/2024",
+                        "end": "10/24/2024"
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/file/d/1erVyml-QbUUKTuvzl4j-n2UUEjwq8cOq/view?usp=sharing" }
+                    ],
+                    
+                    "locales": {
+                        "en": {
+                            "title": "**CNIB Connecting the Dots Conference** (Canadian National Institute of the Blind) ",
+                            "info": "",
+                            "text": ""
+                        },
+                        "zh": {
+                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
+                            "info": "MIT",
+                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                        },
+                        "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
                             "info": "MIT",
                             "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
