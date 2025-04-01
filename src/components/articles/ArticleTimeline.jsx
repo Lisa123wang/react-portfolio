@@ -240,7 +240,7 @@ function ArticleTimeline({ data }) {
                             color: "var(--theme-soft)",
                             fontWeight: "bold",
                             '&:hover': {
-                                backgroundColor: "var(--theme-soft)",
+                                backgroundColor: "var(--theme-highlight)",
                             },
                         }}
                     >
