@@ -156,7 +156,7 @@
                         "fa": "fa-brands fa-java",
                         "faColors": {"bg": "#007396", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 70,
                     "dates": {
                         "start": ""
                     },
@@ -173,7 +173,7 @@
                         "fa": "fa-brands fa-python",
                         "faColors": {"bg": "#306998", "fill": "#EEE"}
                     },
-                    "value": 85,
+                    "value": 80,
                     "dates": {
                         "start": ""
                     },
@@ -190,7 +190,7 @@
                         "fa": "fa-solid fa-database",
                         "faColors": {"bg": "#4479A1", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 85,
                     "dates": {
                         "start": ""
                     },
@@ -207,7 +207,7 @@
                         "fa": "fa-brands fa-php",
                         "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
-                    "value": 100,
+                    "value": 85,
                     "dates": {
                         "start": ""
                     },
@@ -224,7 +224,7 @@
                         "fa": "fa-brands fa-github",
                         "faColors": {"bg": "#F18717", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": 85,
                     "dates": {
                         "start": ""
                     },
@@ -241,7 +241,7 @@
                         "fa": "fa-brands fa-laravel",
                         "faColors": {"bg": "#f55247", "fill": "#fff"}  
                     },
-                    "value": 95,
+                    "value": 85,
                     "dates": {
                         "start": ""
                     },
@@ -271,7 +271,7 @@
                         "fa": "fa-brands fa-html5",
                         "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": 90,
                     "dates": {
                         "start": ""
                     },
@@ -288,7 +288,7 @@
                         "fa": "fa-brands fa-css3",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": 90,
                     "dates": {
                         "start": ""
                     },
@@ -305,7 +305,7 @@
                         "fa": "fa-brands fa-js",
                         "faColors": {"bg": "#F7DF1E", "fill": "#111"}
                     },
-                    "value": 90,
+                    "value": 85,
                     "dates": {
                         "start": ""
                     },
@@ -322,7 +322,7 @@
                         "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": 80,
                     "dates": {
                         "start": ""
                     },
