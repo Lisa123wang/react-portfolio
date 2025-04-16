@@ -17,7 +17,7 @@
 
         "locales": {
             "en": {"role": "Web Developer"},
-            "zh": {"role": "Desarrollador Web"},
+            "zh": {"role": "網頁工程師"},
             "he": {"role": "Développeur Web"},
             "ko": {"role": "웹 개발자"}
         }
@@ -61,13 +61,9 @@
             "name": "Mandarin",
             "id": "zh",
             "flagUrl": "images/flags/tw.png"
-        },
-
-        {
-            "name": "Hebrew",
-            "id": "he",
-            "flagUrl": "images/flags/isr.png"
         }
+
+       
     ],
 
     "emailjs": {
