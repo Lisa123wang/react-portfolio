@@ -7,8 +7,8 @@
         },
         "zh": {
             "title": "教育背景",
-            "title_long_prefix": "Esta es mi",
-            "title_long": "**Formación** Educativa"
+            "title_long_prefix": "我的",
+            "title_long": "**教育** 背景"
         },
         "he": {
             "title": "חינוך",
@@ -37,13 +37,13 @@
                     "category": "Category"
                 },
                 "zh": {
-                    "course": "Curso",
-                    "grade": "Calificación",
-                    "semester": "Semestre",
-                    "transcript": "Boleta de Calificaciones",
-                    "term": "Término",
-                    "credits": "Créditos",
-                    "category": "Categoría"
+                    "course": "課程",
+                    "grade": "成績",
+                    "semester": "學期",
+                    "transcript": "成績單",
+                    "term": "學期",
+                    "credits": "學分",
+                    "category": "類別"
                 },
                 "he": {
                     "course": "Cours",
@@ -79,7 +79,13 @@
                         "en": {
                             "title": "**Bachelor** in Information Management",
                             "info": "Fu-Jen Catholic University",
-                            "text": "Earned a Bachelor's degree in Information Management, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "text": "Earned a Bachelor's degree in Information Management, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects.",
+                            "tags": []
+                        },
+                        "zh": {
+                            "title": "資訊管理**學士**",
+                            "info": "天主教輔仁大學",
+                            "text": "獲得資訊管理學士學位，涉略演算法、資料結構、軟體工程和網頁開發，並透過各種程式設計專案獲得實作經驗。",
                             "tags": []
                         }
                     },
@@ -87,7 +93,7 @@
                         {
                             "semester": {
                                 "en": "Fall 2021",
-                                "zh": "Otoño 2021",
+                                "zh": "2021 秋季",
                                 "he": "Automne 2021",
                                 "ko": "2021년 가을"
                             },
@@ -99,7 +105,7 @@
                                 {
                                     "course": {
                                         "en": "Python Program Design",
-                                        "zh": "Algoritmos",
+                                        "zh": "Python程式設計",
                                         "he": "Algorithmes",
                                         "ko": "알고리즘"
                                     },
@@ -111,14 +117,14 @@
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "zh": "Semestre Completo",
+                                        "zh": "學期",
                                         "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Liberal Education",
-                                        "zh": "Núcleo",
+                                        "zh": "通識",
                                         "he": "Noyau",
                                         "ko": "핵심"
                                     }
@@ -126,7 +132,7 @@
                                 {
                                     "course": {
                                         "en": "Introduction to Programming",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "程式設計概論",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -138,14 +144,14 @@
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "zh": "Semestre Completo",
+                                        "zh": "學期",
                                         "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "zh": "Núcleo",
+                                        "zh": "必修",
                                         "he": "Noyau",
                                         "ko": "핵심"
                                     },
@@ -154,7 +160,7 @@
                                 {
                                     "course": {
                                         "en": "Accounting",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "會計學",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -166,14 +172,14 @@
                                     },
                                     "term": {
                                         "en": "Year",
-                                        "zh": "Semestre Completo",
+                                        "zh": "學年",
                                         "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 3,
                                     "category": {
                                         "en": "Required",
-                                        "zh": "Núcleo",
+                                        "zh": "必修",
                                         "he": "Noyau",
                                         "ko": "핵심"
                                     }
@@ -181,7 +187,7 @@
                                 {
                                     "course": {
                                         "en": "Introduction to University Studies",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "大學入門",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -193,14 +199,14 @@
                                     },
                                     "term": {
                                         "en": "Semester",
-                                        "zh": "Semestre Completo",
+                                        "zh": "學期",
                                         "he": "Semestre Complet",
                                         "ko": "전체 학기"
                                     },
                                     "credits": 2,
                                     "category": {
                                         "en": "Required",
-                                        "zh": "Núcleo",
+                                        "zh": "必修",
                                         "he": "Noyau",
                                         "ko": "핵심"
                                     }
@@ -208,7 +214,7 @@
                                 {
                                     "course": {
                                         "en": "Physical Education",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "體育",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -235,7 +241,7 @@
                                 {
                                     "course": {
                                         "en": "Calculus",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "微積分",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -263,7 +269,7 @@
                                 {
                                     "course": {
                                         "en": "Introduction to Business",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "企業管理概論",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -290,7 +296,7 @@
                                 {
                                     "course": {
                                         "en": "All-out Defense Education Military Training",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "全民國防教育軍事訓練",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -317,7 +323,7 @@
                                 {
                                     "course": {
                                         "en": "Chinese",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "國文",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
@@ -344,7 +350,7 @@
                                 {
                                     "course": {
                                         "en": "Foreign Language(Intermediate Level English)",
-                                        "zh": "Sistemas de Bases de Datos",
+                                        "zh": "外國語文(中級英文)",
                                         "he": "Systèmes de Bases de Données",
                                         "ko": "데이터베이스 시스템"
                                     },
