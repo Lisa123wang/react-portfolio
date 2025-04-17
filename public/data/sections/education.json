@@ -34,7 +34,13 @@
                     "transcript": "Transcript",
                     "term": "Term",
                     "credits": "Credits",
-                    "category": "Category"
+                    "category": "Category",
+                    "avgGrade": "Avg Grade",
+                    "totalCredits": "Total Credits",
+                    "averageGrade": "Average Grade",
+                    "averageGPA": "Average GPA",
+                    "classRankSize": "Class Rank/Size",
+                    "conductGrade": "Conduct Grade"
                 },
                 "zh": {
                     "course": "課程",
@@ -43,7 +49,13 @@
                     "transcript": "成績單",
                     "term": "學期",
                     "credits": "學分",
-                    "category": "類別"
+                    "category": "類別",
+                    "avgGrade": "平均成績",
+                    "totalCredits": "總學分",
+                    "averageGrade": "平均成績",
+                    "averageGPA": "平均 GPA",
+                    "classRankSize": "班級排名/總人數",
+                    "conductGrade": "品行成績" 
                 },
                 "he": {
                     "course": "Cours",

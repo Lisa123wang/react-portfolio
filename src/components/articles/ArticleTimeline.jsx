@@ -20,40 +20,6 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 
-// ✅ Translations for different fields
-const translations = {
-    totalCredits: {
-        en: "Total Credits",
-        zh: "總學分",
-        he: "סה\"כ קרדיטים",
-        ko: "총 학점"
-    },
-    avgGrade: {
-        en: "Avg Grade",
-        zh: "平均成績",
-        he: "ממוצע ציונים",
-        ko: "평균 성적"
-    },
-    avgGPA: {
-        en: "Avg GPA",
-        zh: "平均GPA",
-        he: "ממוצע ציוני GPA",
-        ko: "평균 GPA"
-    },
-    classRankSize: {
-        en: "Class Rank/Size",
-        zh: "班級排名/人數",
-        he: "דירוג כיתה/גודל",
-        ko: "학급 순위/크기"
-    },
-    conductGrade: {
-        en: "Conduct Grade",
-        zh: "品行成績",
-        he: "ציון התנהגות",
-        ko: "품행 성적"
-    }
-};
-
 // ✅ Function to group courses by semester
 function groupBySemester(semesters, language) {
     const grouped = {};
@@ -78,17 +44,17 @@ function downloadPDF() {
     document.body.removeChild(link);
 }
 
-function Row({ 
-    semester, 
-    courses, 
-    headers, 
-    language, 
-    totalCredits, 
-    averageGPA, 
-    classRank, 
-    classSize, 
-    averageGrade, 
-    conduct 
+function Row({
+    semester,
+    courses,
+    headers, // headers contains the translated field names
+    language,
+    totalCredits,
+    averageGPA,
+    classRank,
+    classSize,
+    averageGrade,
+    conduct
 }) {
     const [open, setOpen] = useState(false);
     const theme = useTheme();
@@ -97,19 +63,12 @@ function Row({
     const conductAverageGrade = conduct?.averageGrade ?? "A";
     const conductGrade = conduct?.grade ?? "86.00";
 
-    // Get translated labels
-    const totalCreditsLabel = translations.totalCredits[language];
-    const avgGradeLabel = translations.avgGrade[language];
-    const avgGpaLabel = translations.avgGPA[language];
-    const classRankSizeLabel = translations.classRankSize[language];
-    const conductGradeLabel = translations.conductGrade[language];
-
     return (
         <>
             <TableRow sx={{ backgroundColor: "var(--theme-soft-2)", color: "var(--theme-secondary)" }}>
                 <TableCell sx={{ color: "var(--theme-secondary)" }}>
-                    <IconButton 
-                        onClick={() => setOpen(!open)} 
+                    <IconButton
+                        onClick={() => setOpen(!open)}
                         sx={{ color: "var(--theme-secondary)" }}
                     >
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -129,7 +88,7 @@ function Row({
                             {isMobile ? (
                                 <>
                                     {courses.map((course, index) => (
-                                        <Box 
+                                        <Box
                                             key={index}
                                             sx={{
                                                 mb: 2,
@@ -145,11 +104,11 @@ function Row({
                                     ))}
 
                                     <Box sx={{ mt: 2 }}>
-                                        <Typography><strong>{totalCreditsLabel}:</strong> {totalCredits ?? "N/A"}</Typography>
-                                        <Typography><strong>{avgGradeLabel}:</strong> {averageGrade ?? "N/A"}</Typography>
-                                        <Typography><strong>{avgGpaLabel}:</strong> {averageGPA ?? "N/A"}</Typography>
-                                        <Typography><strong>{classRankSizeLabel}:</strong> {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}</Typography>
-                                        <Typography><strong>{conductGradeLabel}:</strong> {conductAverageGrade} ({conductGrade})</Typography>
+                                        <Typography><strong>{headers.totalCredits}:</strong> {totalCredits ?? "N/A"}</Typography>
+                                        <Typography><strong>{headers.averageGrade}:</strong> {averageGrade ?? "N/A"}</Typography>
+                                        <Typography><strong>{headers.averageGPA}:</strong> {averageGPA ?? "N/A"}</Typography>
+                                        <Typography><strong>{headers.classRankSize}:</strong> {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}</Typography>
+                                        <Typography><strong>{headers.conductGrade}:</strong> {conductAverageGrade} ({conductGrade})</Typography>
                                     </Box>
                                 </>
                             ) : (
@@ -166,8 +125,8 @@ function Row({
                                     </TableHead>
                                     <TableBody>
                                         {courses.map((course, index) => (
-                                            <TableRow 
-                                                key={index} 
+                                            <TableRow
+                                                key={index}
                                                 sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-secondary)" }}
                                             >
                                                 <TableCell colSpan={2} sx={{ color: "var(--theme-secondary)" }}>
@@ -180,21 +139,21 @@ function Row({
                                         ))}
                                         <TableRow sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-secondary)", fontWeight: "bold" }}>
                                             <TableCell colSpan={1} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                {totalCreditsLabel}: {totalCredits ?? "N/A"}
+                                                {headers.totalCredits}: {totalCredits ?? "N/A"}
                                             </TableCell>
                                             <TableCell colSpan={1} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                {avgGradeLabel}: {averageGrade ?? "N/A"}
+                                                {headers.averageGrade}: {averageGrade ?? "N/A"}
                                             </TableCell>
                                             <TableCell align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                {avgGpaLabel}: {averageGPA ?? "N/A"}
+                                                {headers.averageGPA}: {averageGPA ?? "N/A"}
                                             </TableCell>
                                             <TableCell align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                {classRankSizeLabel}: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
+                                                {headers.classRankSize}: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
                                             </TableCell>
                                         </TableRow>
                                         <TableRow sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-secondary)" }}>
                                             <TableCell colSpan={4} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                {conductGradeLabel}: {conductAverageGrade} ({conductGrade})
+                                                {headers.conductGrade}: {conductAverageGrade} ({conductGrade})
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -225,13 +184,13 @@ function ArticleTimeline({ data }) {
     if (semesters.length === 0) {
         return <Typography variant="h6">No data available</Typography>;
     }
-    
+
     const groupedData = groupBySemester(semesters, selectedLanguageId);
     const headers = data.locales[selectedLanguageId];
 
     return (
         <Article className="article-timeline" title={parsedData.title}>
-            <Timeline items={parsedItems} />
+            <Timeline items={parsedItems} /> 
 
             <Box>
                 <TableContainer 
@@ -291,5 +250,7 @@ function ArticleTimeline({ data }) {
         </Article>
     );
 }
+
+
 
 export default ArticleTimeline;
