@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import { useLanguage } from '/src/providers/LanguageProvider.jsx';
 import Article from "/src/components/wrappers/Article.jsx";
 import Timeline from "/src/components/generic/Timeline.jsx";
@@ -19,6 +19,40 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+
+// ✅ Translations for different fields
+const translations = {
+    totalCredits: {
+        en: "Total Credits",
+        zh: "總學分",
+        he: "סה\"כ קרדיטים",
+        ko: "총 학점"
+    },
+    avgGrade: {
+        en: "Avg Grade",
+        zh: "平均成績",
+        he: "ממוצע ציונים",
+        ko: "평균 성적"
+    },
+    avgGPA: {
+        en: "Avg GPA",
+        zh: "平均GPA",
+        he: "ממוצע ציוני GPA",
+        ko: "평균 GPA"
+    },
+    classRankSize: {
+        en: "Class Rank/Size",
+        zh: "班級排名/人數",
+        he: "דירוג כיתה/גודל",
+        ko: "학급 순위/크기"
+    },
+    conductGrade: {
+        en: "Conduct Grade",
+        zh: "品行成績",
+        he: "ציון התנהגות",
+        ko: "품행 성적"
+    }
+};
 
 // ✅ Function to group courses by semester
 function groupBySemester(semesters, language) {
@@ -63,6 +97,13 @@ function Row({
     const conductAverageGrade = conduct?.averageGrade ?? "A";
     const conductGrade = conduct?.grade ?? "86.00";
 
+    // Get translated labels
+    const totalCreditsLabel = translations.totalCredits[language];
+    const avgGradeLabel = translations.avgGrade[language];
+    const avgGpaLabel = translations.avgGPA[language];
+    const classRankSizeLabel = translations.classRankSize[language];
+    const conductGradeLabel = translations.conductGrade[language];
+
     return (
         <>
             <TableRow sx={{ backgroundColor: "var(--theme-soft-2)", color: "var(--theme-secondary)" }}>
@@ -104,11 +145,11 @@ function Row({
                                     ))}
 
                                     <Box sx={{ mt: 2 }}>
-                                        <Typography><strong>Total Credits:</strong> {totalCredits ?? "N/A"}</Typography>
-                                        <Typography><strong>Avg Grade:</strong> {averageGrade ?? "N/A"}</Typography>
-                                        <Typography><strong>Avg GPA:</strong> {averageGPA ?? "N/A"}</Typography>
-                                        <Typography><strong>Class Rank/Size:</strong> {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}</Typography>
-                                        <Typography><strong>Conduct Grade:</strong> {conductAverageGrade} ({conductGrade})</Typography>
+                                        <Typography><strong>{totalCreditsLabel}:</strong> {totalCredits ?? "N/A"}</Typography>
+                                        <Typography><strong>{avgGradeLabel}:</strong> {averageGrade ?? "N/A"}</Typography>
+                                        <Typography><strong>{avgGpaLabel}:</strong> {averageGPA ?? "N/A"}</Typography>
+                                        <Typography><strong>{classRankSizeLabel}:</strong> {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}</Typography>
+                                        <Typography><strong>{conductGradeLabel}:</strong> {conductAverageGrade} ({conductGrade})</Typography>
                                     </Box>
                                 </>
                             ) : (
@@ -139,21 +180,21 @@ function Row({
                                         ))}
                                         <TableRow sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-secondary)", fontWeight: "bold" }}>
                                             <TableCell colSpan={1} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                Total Credits: {totalCredits ?? "N/A"}
+                                                {totalCreditsLabel}: {totalCredits ?? "N/A"}
                                             </TableCell>
                                             <TableCell colSpan={1} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                Avg Grade: {averageGrade ?? "N/A"}
+                                                {avgGradeLabel}: {averageGrade ?? "N/A"}
                                             </TableCell>
                                             <TableCell align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                Avg GPA: {averageGPA ?? "N/A"}
+                                                {avgGpaLabel}: {averageGPA ?? "N/A"}
                                             </TableCell>
                                             <TableCell align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                Class Rank/Size: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
+                                                {classRankSizeLabel}: {classRank && classSize ? `${classRank}/${classSize}` : "N/A"}
                                             </TableCell>
                                         </TableRow>
                                         <TableRow sx={{ backgroundColor: "var(--theme-soft)", color: "var(--theme-secondary)" }}>
                                             <TableCell colSpan={4} align="right" sx={{ color: "var(--theme-secondary)" }}>
-                                                Conduct Grade: {conductAverageGrade} ({conductGrade})
+                                                {conductGradeLabel}: {conductAverageGrade} ({conductGrade})
                                             </TableCell>
                                         </TableRow>
                                     </TableBody>
@@ -166,7 +207,6 @@ function Row({
         </>
     );
 }
-
 
 // ✅ Main Component
 function ArticleTimeline({ data }) {

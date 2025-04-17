@@ -1638,6 +1638,10 @@
                                 "he": "Automne 2025",
                                 "ko": "2025년 가을"
                             },
+                            "totalCredits": 0,
+                            "averageGrade": "0",
+                            "averageGPA": 0,
+                            "classRankSize": "0/0",
                             "courses": [
                                 {
                                     "course": {
