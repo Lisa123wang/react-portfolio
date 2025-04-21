@@ -7,9 +7,9 @@
         },
 
         "zh": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
+            "title": "專長",
+            "title_long_prefix": "這些是",
+            "title_long": "我的 **專長**"
         },
 
         "he": {
@@ -41,12 +41,12 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
+                            "title": "**Website** design and development",
+                            "text": "Utilized Figma to design UI/ UX, and developed websites using HTML, React, and Laravel"
                         },
                         "zh": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
+                            "title": "**網頁**設計",
+                            "text": "使用Figma繪製使用者介面/流程圖，並運用 HTML、React 與 Laravel 開發網站"
                         },
                         "he": {
                             "title": "Conception de **sites web**",
@@ -67,12 +67,12 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
+                            "title": "**Database** design and management",
+                            "text": "Developed and connected relational databases to support system functionality"
                         },
                         "zh": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
+                            "title": "**資料庫**設計與連接",
+                            "text": "資料庫設計與應用系統整合"
                         },
                         "he": {
                             "title": "Gestion de **bases de données**",
@@ -84,8 +84,6 @@
                         }
                     }
                 },
-
-                
                 {
                     "icon": {
                         "img": null,
@@ -95,11 +93,11 @@
                     "locales": {
                         "en": {
                             "title": "REST **APIs**",
-                            "text": "I can build API services!"
+                            "text": "Build APIs for data communication"
                         },
                         "zh": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
+                            "title": "**API**製作",
+                            "text": "建置API以實現資料傳輸"
                         },
                         "he": {
                             "title": "APIs **REST**",
@@ -111,29 +109,28 @@
                         }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-lock",
+                        "fa": "fa-brands fa-chrome",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "title": "**UI/ UX**",
-                            "text": "I care about clarity and accessibility in design."
+                            "title": "Chrome **Extension**",
+                            "text": "Built a Chrome extension to enhance user interaction and accessibility features"
                         },
                         "zh": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
+                            "title": "**擴充套件**",
+                            "text": "開發 Chrome 擴充功能，以提升使用者互動性與無障礙體驗"
                         },
                         "he": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
+                            "title": "APIs **REST**",
+                            "text": "Je peux créer des services API !"
                         },
                         "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
+                            "title": "REST **API**",
+                            "text": "API 서비스를 구축할 수 있습니다!"
                         }
                     }
                 }
@@ -146,7 +143,8 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Backend"}
+                "en": {"title": "Backend"},
+                "zh": {"title": "後端"}
             },
 
             "items": [
@@ -241,7 +239,7 @@
                         "fa": "fa-brands fa-laravel",
                         "faColors": {"bg": "#f55247", "fill": "#fff"}  
                     },
-                    "value": 85,
+                    "value": 75,
                     "dates": {
                         "start": ""
                     },
@@ -261,7 +259,8 @@
             "component": "ArticleList",
             "config": {},
             "locales": {
-                "en": {"title": "Frontend"}
+                "en": {"title": "Frontend"},
+                "zh": {"title": "前端"}
             },
 
             "items": [
@@ -349,6 +348,23 @@
                             "info": null
                         }
                     }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-figma",
+                        "faColors": {"bg": "#F24E1E","fill": "#FFFFFF"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Figma",
+                            "info": null
+                        }
+                    }
                 }
             ]
         },
@@ -359,7 +375,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Languages" },
-                "zh": { "title": "Idiomas" },
+                "zh": { "title": "語言" },
                 "he": { "title": "Langues" },
                 "ko": { "title": "언어" }
             },
@@ -376,13 +392,13 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
+                            "info": "Intermediate proficiency in English, can hold conversations and understand written text.",
                             "tags": ["Intermediate"]
                         },
                         "zh": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
+                            "title": "英文",
+                            "info": "英文中級程度，能夠進行日常對話並理解一般書面資料。",
+                            "tags": ["中級"]
                         },
                         "he": {
                             "title": "Anglais",
@@ -412,9 +428,9 @@
                             "tags": ["Native"]
                         },
                         "zh": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
+                            "title": "中文",
+                            "info": "具備優秀的溝通與書寫能力。",
+                            "tags": ["母語"]
                         },
                         "he": {
                             "title": "Vietnamien",
