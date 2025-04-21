@@ -427,38 +427,6 @@
                             "tags": ["중급"]
                         }
                     }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/isr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Hebrew",
-                            "info": "Basic understanding of Hebrew; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "zh": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "he": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
-                        }
-                    }
                 }
             ]
         }
