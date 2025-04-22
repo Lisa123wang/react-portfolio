@@ -7,9 +7,9 @@
         },
 
         "zh": {
-            "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
+            "title": "經歷",
+            "title_long_prefix": "我的",
+            "title_long": "**工作**經歷"
         },
 
         "he": {
@@ -47,14 +47,14 @@
                         "en": {
                             "title": "Full-Stack Developer (Intern)",
                             "info": "Syscode",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.Full-stack development and management, encompassing UX design, Laravel development and testing.",
+                            "text": "Responsible for full-stack development and project management, encompassing UX design, Laravel-based development, and system testing.",
                             "tags": ["PHP", "MySQL", "Laravel"]
                         },
                         "zh": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
+                            "title": "**全端**工程師(實習)",
+                            "info": "Syscode",
+                            "text": "負責全端系統的開發與管理工作，內容包括 UX 設計、Laravel 框架開發及功能測試。",
+                            "tags": ["PHP", "MySQL", "Laravel"]
                         },
                         "he": {
                             "title": "Développeur **Backend**",
