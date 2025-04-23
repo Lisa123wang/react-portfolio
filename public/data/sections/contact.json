@@ -7,9 +7,9 @@
         },
 
         "zh": {
-            "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
+            "title": "聯繫方式",
+            "title_long_prefix": "你能用以下幾種方式",
+            "title_long": "**聯繫**我"
         },
 
         "he": {
@@ -26,19 +26,7 @@
     },
 
     "articles": [
-        {
-            "id": "contact_form",
-            "component": "ArticleContactForm",
-            "config": {},
-            "locales": {
-                "en": {"title": "Send me a **message**"},
-                "zh": {"title": "Envíame un **mensaje**"},
-                "he": {"title": "Envoyez-moi un **message**"},
-                "ko": {"title": "**메시지를** 보내주세요"}
-            },
-
-            "items": null
-        },
+        
 
         {
             "id": "contact_list",
@@ -47,8 +35,8 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Or if you **prefer**..."},
-                "zh": {"title": "O si **prefieres**..."},
+                "en": {"title": "**Ling Wong**'s contact information"},
+                "zh": {"title": "**翁凌**的聯繫方式"},
                 "he": {"title": "Ou si vous **préférez**..."},
                 "ko": {"title": "또는 **원하시면**..."}
             },
