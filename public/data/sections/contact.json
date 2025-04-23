@@ -54,7 +54,7 @@
                     },
                     "locales": {
                         "en": {"title": "Phone"},
-                        "zh": {"title": "Teléfono"},
+                        "zh": {"title": "手機"},
                         "he": {"title": "Téléphone"},
                         "ko": {"title": "전화"}
                     }
