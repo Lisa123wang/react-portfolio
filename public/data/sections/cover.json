@@ -124,7 +124,7 @@
                     "locales": {
                         "en": {
                             "info": "Co-developer at <b>University Research Project</b>",
-                            "text": "Working with Lisa, it is obvious that **efficiency** has improved, and she helps everyone quickly find the direction of action. She is a highly mobile and multi-faceted idea partner!"
+                            "text": "Working with Lisa, it is obvious that **efficiency** has improved.She is a highly mobile and **multi-faceted** idea partner!"
                         },
                         "zh": {
                             "info": "<b>大學專題</b> 組員",
@@ -202,7 +202,7 @@
                         },
                         "zh": {
                             "title": "使用者介面與流程設計",
-                            "info": "學習使用者介面與流程，了解設計決策如何影響使用者滿意度。"
+                            "info": "學習使用者介面與流程，了解設計如何影響使用者滿意度。"
                         },
                         "he": {
                             "title": "Conception UX",

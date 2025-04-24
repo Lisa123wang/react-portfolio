@@ -7,9 +7,9 @@
         },
 
         "zh": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
+            "title": "作品集",
+            "title_long_prefix": "這些是",
+            "title_long": "我的 **作品**"
         },
 
         "he": {
@@ -34,10 +34,10 @@
 
             "categories": [
                 {
-                    "id": "apps",
+                    "id": "designs",
                     "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "zh": {"singular": "App", "plural": "Apps"},
+                        "en": {"singular": "Design", "plural": "Designs"},
+                        "zh": {"singular": "Design", "plural": "Designs"},
                         "he": {"singular": "App", "plural": "Apps"},
                         "ko": {"singular": "앱", "plural": "앱들"}
                     }
@@ -90,8 +90,8 @@
                             "tags": ["API", "NVDA", "Backend","AI"]
                         },
                         "zh": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+                            "title": "ImageNarrator",
+                            "text": "一款為 <b>視障者</b> 設計的 <b>AI 驅動輔助學習工具</b>，<br>具備影像辨識與即時問答功能。<br>該系統旨在讓視障使用者能夠無障礙地使用 YouTube 學習資源，<br>推動平等的學習機會。",
                             "tags": ["API", "REST", "Backend"]
                         },
                         "he": {
@@ -107,58 +107,14 @@
                     }
                 },
                 {
-                    "categoryId": "apps",
+                    "categoryId": "designs",
                     "icon": {
                         "img": "images/pictures/project-logo-2.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "zh": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "he": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
+                   "links": [
                         {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
                     ],
 
@@ -180,6 +136,49 @@
                             "title": "RockVerse",
                             "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
                             "tags": ["Django", "Música", "Rock"]
+                        },
+                        "he": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://docs.google.com/document/d/1CdtySpwEKGzH3B9aIXPLEQcafm_Jr_6S3BfxRJ7eCk4/edit?usp=sharing"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "ImageNarrator Panel",
+                            "text": "A web-based management platform for the ImageNarrator Chrome extension, allowing administrators to control user registration access, manage accounts, monitor usage, and edit prompts.",
+                            "tags": ["User Access Control", "Usage Tracking", "Prompt Editing"]
+                        },
+                        "zh": {
+                            "title": "ImageNarrator-後台",
+                            "text": "一個用於管理 ImageNarrator 擴充功能的網站，讓管理員能控管使用者註冊權限、帳號啟用與停用、用量監控以及提示詞編輯。",
+                            "tags": ["權限管理", "流量管理", "Prompt編輯"]
                         },
                         "he": {
                             "title": "RockVerse",
