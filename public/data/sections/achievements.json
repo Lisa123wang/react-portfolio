@@ -8,10 +8,10 @@
         },
 
         "zh": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
+            "title": "成就",
+            "title_menu": "成就",
+            "title_long_prefix": "這些是 我的",
+            "title_long": "**成就**"
         },
 
         "he": {
@@ -36,7 +36,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Certifications" },
-                "zh": { "title": "Certificaciones" },
+                "zh": { "title": "證照" },
                 "he": { "title": "Certifications" },
                 "ko": { "title": "인증서" }
             },
@@ -58,10 +58,41 @@
                     "locales": {
                         "en": {
                             "title": "**Amazon** Web Services",
-                            "text": "AWS Academy Graduate – AWS Academy Cloud Foundations"
+                            "text": "AWS Academy Graduate<br>AWS Academy Cloud Foundations"
                         },
                         "zh": {
-                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
+                            "title": "**Amazon Web Services**",
+                            "text": "雲端基礎課程結業證書"
+                        },
+                        "he": {
+                            "text": "Architecte de Solutions Certifié AWS – Associé"
+                        },
+                        "ko": {
+                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/oxford.png",
+                        "fa": "",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "04/19/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://drive.google.com/drive/u/0/folders/11JNFLYkT_xXWqOKY_EGV1SMb9vyqmY45" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**OXFORD** Placement Test",
+                            "text": "Achieved CEFR B2 Level <br> Upper-Intermediate English Proficiency"
+                        },
+                        "zh": {
+                            "title": "**牛津** 英語分級測驗",
+                            "text": "達成 CEFR B2 中高級英文程度"
                         },
                         "he": {
                             "text": "Architecte de Solutions Certifié AWS – Associé"
@@ -71,6 +102,7 @@
                         }
                     }
                 }
+                
             ]
         },
 
@@ -80,7 +112,7 @@
             "config": {},
             "locales": {
                 "en": { "title": "Awards & Presentations" },
-                "zh": { "title": "Premios" },
+                "zh": { "title": "得獎紀錄與發表經歷" },
                 "he": { "title": "Récompenses" },
                 "ko": { "title": "수상 내역" }
             },
@@ -97,14 +129,14 @@
                     
                     "locales": {
                         "en": {
-                            "title": "**International ICT Innovative Services Awards 2024** – Excellent Work ",
+                            "title": "**International ICT Innovative Services Awards 2024** – Excellent Work",
                             "info": "",
-                            "text": ""
+                            "text": "Information Application/ LaborOD group"
                         },
                         "zh": {
-                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
-                            "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                            "title": "**大專校院資訊應用服務創新競賽** – 佳作",
+                            "info": "",
+                            "text": "勞工培力訓練組/資訊應用組"
                         },
                         "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
@@ -131,12 +163,12 @@
                         "en": {
                             "title": "**CNIB Connecting the Dots Conference** (Canadian National Institute of the Blind) ",
                             "info": "",
-                            "text": ""
+                            "text": "Demonstrate ImageNarrator, a Chrome extension for visually impaired people."
                         },
                         "zh": {
-                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
-                            "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                            "title": "**加拿大國家視障研究機構**研討會",
+                            "info": "",
+                            "text": "展示影像語言(Image Narrator)-為視障設計的擴充套件"
                         },
                         "he": {
                             "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",

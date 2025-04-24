@@ -16,10 +16,10 @@
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "en": {"role": "Web Developer"},
-            "zh": {"role": "網頁工程師"},
-            "he": {"role": "Développeur Web"},
-            "ko": {"role": "웹 개발자"}
+            "en": {"role": "Web Developer","name": "Ling Wong"},
+            "zh": {"role": "網頁工程師","name": "翁  凌"},
+            "he": {"role": "Développeur Web","name": "Ling Wong"},
+            "ko": {"role": "웹 개발자","name": "Ling Wong"}
         }
     },
 
