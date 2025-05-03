@@ -1651,9 +1651,9 @@
                                 "ko": "2025년 가을"
                             },
                             "totalCredits": 10,
-                            "averageGrade": "0",
-                            "averageGPA": 0,
-                            "classRankSize": "0/0",
+                            "averageGrade": "N/A",
+                            "averageGPA": null,
+                            "classRankSize": "N/A",
                             "courses": [
                                 {
                                     "course": {

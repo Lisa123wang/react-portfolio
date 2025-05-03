@@ -37,7 +37,7 @@
                     "id": "designs",
                     "locales": {
                         "en": {"singular": "Design", "plural": "Designs"},
-                        "zh": {"singular": "Design", "plural": "Designs"},
+                        "zh": {"singular": "設計", "plural": "設計"},
                         "he": {"singular": "App", "plural": "Apps"},
                         "ko": {"singular": "앱", "plural": "앱들"}
                     }
@@ -46,7 +46,7 @@
                     "id": "websites",
                     "locales": {
                         "en": {"singular": "Website", "plural": "Web"},
-                        "zh": {"singular": "Sitio web", "plural": "Web"},
+                        "zh": {"singular": "網頁", "plural": "網頁"},
                         "he": {"singular": "Site web", "plural": "Web"},
                         "ko": {"singular": "웹사이트", "plural": "웹"}
                     }
@@ -55,7 +55,7 @@
                     "id": "extensions",
                     "locales": {
                         "en": {"singular": "Chrome-extension", "plural": "Chrome-extensions"},
-                        "zh": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "zh": {"singular": "擴充套件", "plural": "擴充套件"},
                         "he": {"singular": "Utilitaire", "plural": "Utilitaires"},
                         "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
                     }
@@ -109,13 +109,13 @@
                 {
                     "categoryId": "designs",
                     "icon": {
-                        "img": "images/pictures/project-logo-2.png",
+                        "img": "images/pictures/decanter.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://drive.google.com/file/d/1mXm6XpIedavkPoGzg0647CdCBGTsG4Ta/view?usp=sharing"}
                     ],
 
                     "media": {
@@ -128,14 +128,57 @@
 
                     "locales": {
                         "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "title": "Red Wine App",
+                            "text": "Design a user experience flow that allows users to scan a wine label to instantly access information about the wine and connect to a decanter for configuration.",
+                            "tags": ["Figma","UX"]
                         },
                         "zh": {
+                            "title": "紅酒App",
+                            "text": "設計用戶體驗流程，讓使用者能夠在掃描酒標後直接獲得酒的資訊，並能連接醒酒器進行設定。",
+                            "tags":  ["Figma","使用者流程圖"]
+                        },
+                        "he": {
                             "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "designs",
+                    "icon": {
+                        "img": "images/pictures/glucometer.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                   "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://drive.google.com/file/d/1dEZU76M87GoAojo8sJsKbiUTP66e6dII/view?usp=sharing"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Blood Glucose meter App",
+                            "text": "The main interface of the blood glucose meter, including screens for recording and presenting key data.",
+                            "tags": ["Figma","UX"]
+                        },
+                        "zh": {
+                            "title": "血糖機App",
+                            "text": "血糖機首頁與重要資料紀錄、展示相關畫面。",
+                            "tags":  ["Figma","使用者流程圖"]
                         },
                         "he": {
                             "title": "RockVerse",
@@ -179,6 +222,49 @@
                             "title": "ImageNarrator-後台",
                             "text": "一個用於管理 ImageNarrator 擴充功能的網站，讓管理員能控管使用者註冊權限、帳號啟用與停用、用量監控以及提示詞編輯。",
                             "tags": ["權限管理", "流量管理", "Prompt編輯"]
+                        },
+                        "he": {
+                            "title": "RockVerse",
+                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
+                            "tags": ["Django", "Musique", "Rock"]
+                        },
+                        "ko": {
+                            "title": "RockVerse",
+                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
+                            "tags": ["Django", "음악", "록"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/shells.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://docs.google.com/document/d/1h7Z0GT-U9uJ6ylK7zNRToT6lO5DPN0myrZT6FuIjx2M/edit?usp=sharing"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": "",
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Shellbid",
+                            "text": "A website dedicated to shell auctions, with shell classification based on family and genus.",
+                            "tags": ["Laravel", "MVC"]
+                        },
+                        "zh": {
+                            "title": "貝殼競標網站",
+                            "text": "專注於貝殼競標的網站，能以科、屬為貝殼分類",
+                            "tags": ["Laravel", "MVC"]
                         },
                         "he": {
                             "title": "RockVerse",

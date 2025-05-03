@@ -51,7 +51,7 @@ function downloadPDF() {
     const pdfUrl = '410402446.pdf'; // Update this URL
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'official_grades.pdf';
+    link.download = 'official_transcript.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

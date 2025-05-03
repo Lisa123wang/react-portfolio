@@ -57,7 +57,7 @@
             "faIcon": "fa-solid fa-home",
             "locales": {
                 "en": {"title": "Home"},
-                "zh": {"title": "Inicio"},
+                "zh": {"title": "首頁"},
                 "he": {"title": "Accueil"},
                 "ko": {"title": "홈페이지"}
             }
@@ -68,7 +68,7 @@
             "faIcon": "fa-solid fa-clock",
             "locales": {
                 "en": {"title": "History"},
-                "zh": {"title": "Trayectoria"},
+                "zh": {"title": "歷史"},
                 "he": {"title": "Parcours"},
                 "ko": {"title": "경력"}
             }
@@ -79,7 +79,7 @@
             "faIcon": "fa-solid fa-images",
             "locales": {
                 "en": {"title": "Showcase"},
-                "zh": {"title": "Vitrina"},
+                "zh": {"title": "專長"},
                 "he": {"title": "Vitrine"},
                 "ko": {"title": "쇼케이스"}
             }
@@ -90,7 +90,7 @@
             "faIcon": "fa-solid fa-plus",
             "locales": {
                 "en": {"title": "More"},
-                "zh": {"title": "Más"},
+                "zh": {"title": "其他"},
                 "he": {"title": "Plus"},
                 "ko": {"title": "더보기"}
             }

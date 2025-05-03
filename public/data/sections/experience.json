@@ -45,15 +45,15 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Full-Stack Developer (Intern)",
-                            "info": "Syscode",
-                            "text": "Responsible for full-stack development and project management, encompassing UX design, Laravel-based development, and system testing.",
+                            "title": "Software Engineer (Intern)",
+                            "info": "SYSCODE",
+                            "text": "During my time at university, I acquired technical skills in both front-end and back-end web development, as well as database management. However, I lacked hands-on experience in areas such as system architecture design and security control. This internship provided me with the opportunity to participate in real-world industry projects. Through practical work and training in standard development processes, I gained a better understanding of how to develop more complete and secure system projects, thereby improving overall operational efficiency and information security.During the internship, I was involved in the full project development lifecycle, including requirement communication, interface design and discussion, coding, testing, and debugging. Each stage deepened my understanding of project management and development practices. Additionally, the experience helped me discover my interest in certain project topics, enabling me to clarify my future direction for graduate studies or career planning, and enhance my professional skills and competitiveness in the job market.In terms of practical work, I learned communication skills with both clients and development teams, and developed a deeper understanding of development workflows and data processing. On the technical side, I became familiar with the Laravel framework and the MVC architecture, and learned how to separate page presentation, business logic, and data management. This allowed me to build projects with clearer and more maintainable structures. While I previously tended to place all code in a single file, I have now learned to manage different functional modules separately—for example, placing control logic and data editing in distinct files and organizing them within a well-structured folder hierarchy.Looking ahead, I am committed to continuously refining my development capabilities, integrating a wide range of technologies, and creating robust, feature-rich systems, as I work toward becoming a highly skilled and professional IT specialist.",
                             "tags": ["PHP", "MySQL", "Laravel"]
                         },
                         "zh": {
-                            "title": "**全端**工程師(實習)",
-                            "info": "Syscode",
-                            "text": "負責全端系統的開發與管理工作，內容包括 UX 設計、Laravel 框架開發及功能測試。",
+                            "title": "**軟體**工程師(實習)",
+                            "info": "SYSCODE",
+                            "text": "在大學期間，我學習了網站前後端開發以及資料庫管理等技術。然而，在系統開發中的整體架構設計與資訊安全控管方面，仍欠缺實際操作經驗。這次實習提供了我參與實際業界專案的寶貴機會，透過實作與標準開發流程的訓練，幫助我理解如何使系統專案更加完整且具備安全性，進而提升整體系統的運作效率與資訊安全水準。在實習期間，我參與了完整的專案開發流程，包含需求溝通、介面設計與討論、程式撰寫、測試與錯誤修正等環節，每一個階段都讓我對專案管理與開發實務有更深入的認識。同時，我也從中發掘自己對某些專案主題的興趣，進一步釐清未來攻讀研究所或職涯發展的方向，並提升自身的專業能力與市場競爭力。在實作層面，我學習到與客戶及開發團隊溝通的技巧，並對開發流程及資料處理有更深的理解。在技術方面，我熟悉了 Laravel 框架與 MVC 架構的實作方式，學會了如何將頁面呈現、業務邏輯與資料管理分離處理，使專案結構更清晰、維護性更高。以往我習慣將所有程式碼集中在同一個檔案，如今我能將不同功能模組分別管理，例如將控制邏輯與資料編輯拆分成不同檔案，並整合在有系統的資料夾架構中。未來，我期許自己持續精進開發能力，整合多元技術，開發出功能更豐富、品質更穩定的系統，成為專業的資訊人才。",
                             "tags": ["PHP", "MySQL", "Laravel"]
                         },
                         "he": {
